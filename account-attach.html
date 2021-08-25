@@ -1,0 +1,2877 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Sttox</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0, user-scalable=no, user-scalable=0"/>
+	<link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+
+	<header class="headeracc">
+		<div class="headeracc__wrapper">	
+			<div class="headeracc__item">
+				<div class="headeracc__menu">
+					<button class="header__toggle header__toggle-account" type="button">
+						<span class="header__toggle-item">Menu</span>
+					</button>
+				</div>
+				<div class="header__logo">
+					<a href="index.html">
+						<img src="assets/images/section-1/title.png" alt="Логотип">
+						<span>/ Удалённый офис</span>
+					</a>
+				</div>
+			</div>
+			<div class="headeracc__item">
+				<div class="header__translate-box">
+					<ul class="header__translate" data-location="ru">
+						<li class="header__translate-button active" data-lang="ru">
+							<span>
+								Rus
+							</span>
+						</li>
+						<li class="header__translate-button" data-lang="en">
+							<span>
+								Eng
+							</span>
+						</li>
+					</ul>
+				</div>
+				<a class="headeracc__massage headeracc__count notification-open" data-count="5">
+					<svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M10.9001 11.3372H2.15641H0.822631C-0.362893 11.3372 0.0816416 10.5814 0.0816416 10.5814C0.0816416 10.5814 0.378093 9.82558 1.26725 9.67442C2.15641 9.52326 2.15644 8.76744 2.15644 8.76744C2.15644 8.76744 1.93009 4.04159 2.15644 3.62791C2.38279 3.21422 2.74923 1.51163 6.00959 1.51163C9.26994 1.51163 9.72547 3.25581 9.86274 3.62791C10 4 9.86274 8.76744 9.86274 8.76744C9.86274 8.76744 9.86274 9.52326 10.7519 9.67442C11.6411 9.82558 11.9375 10.5814 11.9375 10.5814C11.9375 10.5814 12.3821 11.3372 10.9001 11.3372Z" fill="#8F6DFF"/>
+						<path d="M7.93612 11.7907H4.08297C4.08297 11.7907 4.67574 13 6.00953 13C7.34331 13 7.93612 11.7907 7.93612 11.7907Z" fill="#8F6DFF"/>
+						<path d="M7.49152 1.2093C6.3096 0.980857 5.68615 0.999738 4.52756 1.2093C4.52756 1.2093 4.67576 0 6.00954 0C7.34332 0 7.49152 1.2093 7.49152 1.2093Z" fill="#8F6DFF"/>
+					</svg>
+				</a>
+				<div class="headeracc__avatar">
+					<a href="account-profile-new.html">
+						<div class="headeracc__count" data-count="3">
+							<span class="headeracc__active"></span>
+							<img src="assets/images/account/user/avatar.png" alt="avatar">
+						</div>
+						<p>
+							Иван <span>Иванов</span>
+						</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="notification">
+			<ul class="notification__list scroll__custom">
+				<li class="notification__list-item">
+					<div class="headeracc__avatar notification__icon">
+						<span class="headeracc__active"></span>
+						<img src="assets/images/account/user/avatar.png" alt="avatar">
+					</div>
+					<p class="notification__text">
+						Сотрудник <span>Иван Иванов</span> прислал Вам отчёт
+					</p>
+					<span class="notification__time">Сегодня в 13:33</span>
+				</li>
+				<li class="notification__list-item">
+					<div class="notification__icon">
+						<img src="assets/images/account/notification/notification.svg" alt="icon">
+					</div>
+					<p class="notification__text">
+						Намоминание о задаче “Разработать дизайн-макет интернет магазина”
+					</p>
+					<span class="notification__time">Сегодня в 13:33</span>
+				</li>
+				<li class="notification__list-item">
+					<div class="notification__icon">
+						<img src="assets/images/account/notification/message.svg" alt="icon">
+					</div>
+					<p class="notification__text">
+						<span>Иван Иванов</span> прислал личное сообщение
+					</p>
+					<span class="notification__time">Вчера в 13:33</span>
+				</li>
+			</ul>
+			<div class="notification__buttons">
+				<button class="notification__btn">
+					Очистить
+				</button>
+				<a href="" class="notification__btn notification__btn--full">
+					<span>
+						Все уведомления
+					</span>
+					<svg width="10" height="15" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M2 2L9 8.5L2 15" stroke="white" stroke-width="3"/>
+						<path d="M2 2L9 8.5L2 15" stroke="#8F6DFF" stroke-width="3"/>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</header>
+	<main class="page page--account">
+
+		<div class="account__panel-mobile">
+			<ul class="account__panel-list">
+				<li>
+					<a href="">
+						<span class="account__panel-count" data-count="5">
+							<img src="assets/images/account/icons/panelmenu-1.svg" alt="Icons">
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span>
+							<img src="assets/images/account/icons/panelmenu-2.svg" alt="Icons">
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span>
+							<img src="assets/images/account/icons/panelmenu-3.svg" alt="Icons">
+						</span>
+					</a>
+				</li>
+				<li>
+					<a class="active" href="">
+						<span>
+							<img src="assets/images/account/icons/panelmenu-4.svg" alt="Icons">
+						</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="account__page">
+			<aside class="account__sidebar">
+				<ul class="account__menu">
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="office-statistics-1.1.html">
+							<img src="assets/images/account/icons/menu-1.svg" alt="Icons">
+							<span>
+								Компания
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="account-profile-new.html">
+							<img src="assets/images/account/icons/menu-2.svg" alt="Icons">
+							<span>
+								Профиль
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link account__menu-count" data-count="5" href="messenger.html">
+							<img src="assets/images/account/icons/menu-3.svg" alt="Icons">
+							<span>
+								Сообщения
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link account__menu-link--drop" href="office-department-notes.html">
+							<img src="assets/images/account/icons/menu-4.svg" alt="Icons">
+							<span>
+								Инструменты
+							</span>
+							<span class="account__menu-link--arrow">
+								<svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1 1L6 6.5L0.999998 12" stroke="white" stroke-width="2"></path>
+									<path d="M1 1L6 6.5L0.999998 12" stroke="#1F2D44" stroke-width="2"></path>
+								</svg>
+							</span>
+						</a>
+						<ul class="account__menu account__menu--dropdown dropdown-list">
+							<li class="dropdown-list__item mobile-content">
+								<a href="" class="mobile-content__back">
+									<span class="mobile-content__arrow">
+										<svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M7 12L2 6.5L7 1" stroke="white" stroke-width="2"></path>
+											<path d="M7 12L2 6.5L7 1" stroke="#8F6DFF" stroke-width="2"></path>
+										</svg>
+									</span>
+									Меню
+								</a>
+								<h3 class="mobile-content__title">
+									Инструменты
+								</h3>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-department-notes.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-1.svg" alt="Icons">
+									<span>
+										Заметки
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-department-task-chain1.2.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-2.svg" alt="Icons">
+									<span>
+										Задачи
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-projects.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-3.svg" alt="Icons">
+									<span>
+										Проекты
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-add-links1.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-4.svg" alt="Icons">
+									<span>
+										Ссылки
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-meetings-list.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-5.svg" alt="Icons">
+									<span>
+										Совещания
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-department-control.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-6.svg" alt="Icons">
+									<span>
+										Контроль
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-checklist.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-13.svg" alt="Icons">
+									<span>
+										Чек-листы
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-reports.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-14.svg" alt="Icons">
+									<span>
+										Отчёты
+									</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link account__menu-link--drop" href="">
+							<img src="assets/images/account/icons/menu-5.svg" alt="Icons">
+							<span>
+								Сотрудники
+							</span>
+							<span class="account__menu-link--arrow">
+								<svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1 1L6 6.5L0.999998 12" stroke="white" stroke-width="2"></path>
+									<path d="M1 1L6 6.5L0.999998 12" stroke="#1F2D44" stroke-width="2"></path>
+								</svg>
+							</span>
+						</a>
+						<ul class="account__menu account__menu--dropdown dropdown-list">
+							<li class="dropdown-list__item mobile-content">
+								<a href="" class="mobile-content__back">
+									<span class="mobile-content__arrow">
+										<svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M7 12L2 6.5L7 1" stroke="white" stroke-width="2"></path>
+											<path d="M7 12L2 6.5L7 1" stroke="#8F6DFF" stroke-width="2"></path>
+										</svg>
+									</span>
+									Меню
+								</a>
+								<h3 class="mobile-content__title">
+									Сотрудники
+								</h3>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-vacancy-creature-list.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-7.svg" alt="Icons">
+									<span>
+										Вакансии
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-department-schedule-list.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-8.svg" alt="Icons">
+									<span>
+										Графики
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-department-colleagues.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-9.svg" alt="Icons">
+									<span>
+										Коллеги
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-staff.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-10.svg" alt="Icons">
+									<span>
+										Все сотрудники
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-training.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-11.svg" alt="Icons">
+									<span>
+										Обучения
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="achieve.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-12.svg" alt="Icons">
+									<span>
+										Достижения
+									</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="office-workplace.html">
+							<img src="assets/images/account/icons/menu-6.svg" alt="Icons">
+							<span>
+								Рабочее место
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="">
+							<img src="assets/images/account/icons/menu-7.svg" alt="Icons">
+							<span>
+								Найти работника
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="storage.html">
+							<img src="assets/images/account/icons/menu-8.svg" alt="Icons">
+							<span>
+								Sttox диск
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="">
+							<img src="assets/images/account/icons/menu-9.svg" alt="Icons">
+							<span>
+								Статистика
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="office-settings.html">
+							<img src="assets/images/account/icons/menu-10.svg" alt="Icons">
+							<span>
+								Настройки
+							</span>
+						</a>
+					</li>
+				</ul>
+				
+				<div class="account__sidebar-logout">
+					<a href="index.html" class="logout__btn">
+						<img src="assets/images/account/icons/5.png" alt="logout">
+						<span>
+							Выйти
+						</span>
+					</a>
+				</div>
+			</aside>
+			
+			<div class="account__content">
+				<div class="account__head account__head--vision account__head--nocrumbs account__head--btn">
+					<div class="account__crumbs">
+						<a href="">
+							<img src="assets/images/account/icons/arrow.svg" alt="prev">
+						</a>
+						<a href="">
+							Офис
+						</a>
+						<span>
+							/
+						</span>
+						<a class="active">
+							Отдел продаж
+						</a>
+					</div>
+					<div class="account__buttons">
+						<div class="account__attached">
+							<span class="account__attached-title">Прикреплён к</span>
+							<ul class="account__attached-dropdown">
+								<li>
+									<div class="account__attached-avatar">
+										<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+									</div>
+									<div class="account__attached-info">
+										<div class="account__attached-name">
+											<span>
+												Иван Иванов
+											</span>
+										</div>
+										<div class="account__attached-last">
+											<span>
+												Директор
+											</span>
+										</div>
+									</div>
+									<button class="account__attached-delete">
+										<svg id="Capa_1" fill="#9B9B9B" enable-background="new 0 0 386.667 386.667" height="512" viewBox="0 0 386.667 386.667" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m386.667 45.564-45.564-45.564-147.77 147.769-147.769-147.769-45.564 45.564 147.769 147.769-147.769 147.77 45.564 45.564 147.769-147.769 147.769 147.769 45.564-45.564-147.768-147.77z"/></svg>
+									</button>
+								</li>
+								<li>
+									<div class="account__attached-avatar">
+										<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+									</div>
+									<div class="account__attached-info">
+										<div class="account__attached-name">
+											<span>
+												Иван Иванов
+											</span>
+										</div>
+										<div class="account__attached-last">
+											<span>
+												Директор
+											</span>
+										</div>
+									</div>
+									<button class="account__attached-delete">
+										<svg id="Capa_1" fill="#9B9B9B" enable-background="new 0 0 386.667 386.667" height="512" viewBox="0 0 386.667 386.667" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m386.667 45.564-45.564-45.564-147.77 147.769-147.769-147.769-45.564 45.564 147.769 147.769-147.769 147.77 45.564 45.564 147.769-147.769 147.769 147.769 45.564-45.564-147.768-147.77z"/></svg>
+									</button>
+								</li>
+								<li>
+									<div class="account__attached-avatar">
+										<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+									</div>
+									<div class="account__attached-info">
+										<div class="account__attached-name">
+											<span>
+												Иван Иванов
+											</span>
+										</div>
+										<div class="account__attached-last">
+											<span>
+												Директор
+											</span>
+										</div>
+									</div>
+									<button class="account__attached-delete">
+										<svg id="Capa_1" fill="#9B9B9B" enable-background="new 0 0 386.667 386.667" height="512" viewBox="0 0 386.667 386.667" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m386.667 45.564-45.564-45.564-147.77 147.769-147.769-147.769-45.564 45.564 147.769 147.769-147.769 147.77 45.564 45.564 147.769-147.769 147.769 147.769 45.564-45.564-147.768-147.77z"/></svg>
+									</button>
+								</li>
+							</ul>
+						</div>
+						<button class="account__btn staff__attach---show">
+							Прикрепить
+						</button>
+					</div>
+				</div>
+				
+				<div class="account__head-mobile head-mobile">
+					<div class="head-mobile__item">
+						<div class="head-mobile__link">
+							<a class="head-mobile__prev" href="">
+								<img src="assets/images/account/icons/arrow.svg" alt="prev">
+							</a>
+							<button class="header__toggle header__toggle-account" type="button">
+								<span class="header__toggle-item">Menu</span>
+							</button>
+							<h3 class="head-mobile__title">
+								Офис
+							</h3>
+						</div>
+					</div>
+					<div class="head-mobile__item">
+						<button class="head-mobile__btn staff__attach---show">
+							Прикрепить
+						</button>
+					</div>
+				</div>
+				
+				<div class="department">
+					<div class="office-position staff__attach-sidebar scroll__custom">
+						<div class="messages staff__accordion">
+							<div class="staff__toggle">
+								<button class="staff__toggle-btn">
+									<span>
+										Руководящие должности
+									</span>
+									<svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M14 1L7.5 8L0.999999 0.999999" stroke="white" stroke-width="2"/>
+										<path d="M14 1L7.5 8L0.999999 0.999999" stroke="#8F6DFF" stroke-width="2"/>
+									</svg>
+								</button>
+								<ul class="messages__list office-position__list staff__toggle-list">
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="staff__toggle">
+								<button class="staff__toggle-btn">
+									<span>
+										Руководящие должности
+									</span>
+									<svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M14 1L7.5 8L0.999999 0.999999" stroke="white" stroke-width="2"/>
+										<path d="M14 1L7.5 8L0.999999 0.999999" stroke="#8F6DFF" stroke-width="2"/>
+									</svg>
+								</button>
+								<ul class="messages__list office-position__list staff__toggle-list">
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<div class="office-position__avatar">
+												<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+											</div>
+											<div class="massges__info">
+												<div class="messages__name">
+													<span>
+														Иван Иванов
+													</span>
+												</div>
+												<div class="messages__last">
+													<span>
+														Директор
+													</span>
+												</div>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="specialists dragscroll">
+						<div class="specialists__drag">
+							<div class="specialists__drag-content">
+								
+								<div class="specialists__item">
+									<div class="specialists__content">
+										<button class="specialists__add open-modal" data-modal="#modal2">
+											<img src="assets/images/account/specialists/plus.svg" alt="Add">
+										</button>
+									</div>	
+								</div>
+								
+								<div class="specialists__item">
+									<div class="specialists__content">
+										<div class="specialists__item-before">
+											<div class="specialists__info">
+												<div class="specialists__avatar">
+													<span class="specialists__active"></span>
+													<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+												</div>
+												<div class="specialists__text">
+													<p class="specialists__name">
+														<span>Иван</span> Иванов
+													</p>
+													<span class="specialists__position">
+														Консультант
+													</span>
+													<span class="specialists__time">
+														Работает с 2012г
+													</span>
+												</div>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Задачи
+												</button>
+												<button class="specialists__btn">
+													Перерыв
+												</button>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Предупреждение
+												</button>
+												<button class="specialists__btn">
+													График
+												</button>
+											</div>
+											<div class="specialists__bottom">
+												<button class="specialists__camera">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M7.90271 6.19436C7.69799 5.98119 7.45105 5.86722 7.18934 5.86722C6.92974 5.86722 6.6807 5.97908 6.46753 6.19225L5.80059 6.85708C5.74571 6.82753 5.69084 6.80009 5.63807 6.77266C5.56209 6.73467 5.49034 6.69879 5.42913 6.6608C4.8044 6.26401 4.23666 5.74692 3.69213 5.07787C3.42831 4.7444 3.25102 4.46369 3.12228 4.17876C3.29534 4.02047 3.45575 3.85584 3.61193 3.69755C3.67103 3.63846 3.73012 3.57725 3.78922 3.51815C4.23244 3.07493 4.23244 2.50086 3.78922 2.05764L3.21303 1.48145C3.1476 1.41602 3.08007 1.34848 3.01675 1.28095C2.89011 1.15009 2.75715 1.01501 2.61996 0.888379C2.41524 0.685764 2.17041 0.578125 1.91292 0.578125C1.65543 0.578125 1.40639 0.685764 1.19533 0.888379C1.19322 0.89049 1.19322 0.89049 1.19111 0.8926L0.473514 1.61653C0.203361 1.88668 0.0492897 2.21593 0.0155206 2.59794C-0.035133 3.21423 0.146376 3.78831 0.285673 4.16399C0.627585 5.08631 1.13834 5.94109 1.90026 6.85708C2.82469 7.96091 3.93696 8.83257 5.20752 9.44675C5.69295 9.6768 6.34089 9.94907 7.06482 9.9955C7.10914 9.99761 7.15557 9.99972 7.19778 9.99972C7.68533 9.99972 8.09478 9.82454 8.41558 9.4763C8.41769 9.47208 8.42192 9.46997 8.42403 9.46575C8.53378 9.33278 8.66041 9.21248 8.79338 9.08373C8.88413 8.9972 8.97699 8.90645 9.06775 8.81147C9.2767 8.59408 9.38645 8.34081 9.38645 8.08121C9.38645 7.8195 9.27458 7.56834 9.06142 7.35728L7.90271 6.19436ZM8.6583 8.41679C8.65619 8.41679 8.65619 8.4189 8.6583 8.41679C8.57599 8.50544 8.49156 8.58564 8.40081 8.67428C8.26362 8.80514 8.12432 8.94233 7.99347 9.0964C7.7803 9.32434 7.52914 9.43198 7.1999 9.43198C7.16824 9.43198 7.13447 9.43198 7.10281 9.42987C6.47597 9.38977 5.89345 9.14494 5.45657 8.93599C4.26198 8.3577 3.21303 7.53668 2.34137 6.49617C1.62166 5.62873 1.14045 4.82671 0.821758 3.96559C0.625475 3.44006 0.553716 3.03061 0.585374 2.64438C0.60648 2.39744 0.701455 2.19271 0.876633 2.01754L1.59634 1.29783C1.69975 1.20074 1.8095 1.14798 1.91714 1.14798C2.05011 1.14798 2.15775 1.22818 2.22529 1.29572C2.2274 1.29783 2.22951 1.29994 2.23162 1.30205C2.36036 1.42235 2.48277 1.54688 2.61152 1.67984C2.67695 1.74738 2.74449 1.81492 2.81202 1.88457L3.38821 2.46076C3.61193 2.68448 3.61193 2.89131 3.38821 3.11503C3.327 3.17624 3.26791 3.23745 3.2067 3.29654C3.02941 3.47805 2.86057 3.6469 2.67695 3.81152C2.67273 3.81574 2.66851 3.81785 2.66639 3.82208C2.48489 4.00358 2.51865 4.18087 2.55664 4.30118C2.55876 4.30751 2.56087 4.31384 2.56298 4.32017C2.71283 4.68319 2.92388 5.0251 3.24469 5.43244L3.2468 5.43455C3.82932 6.15215 4.44349 6.71145 5.12099 7.1399C5.20752 7.19477 5.29616 7.23909 5.38059 7.2813C5.45657 7.31929 5.52833 7.35517 5.58953 7.39316C5.59797 7.39739 5.60642 7.40372 5.61486 7.40794C5.68662 7.44382 5.75416 7.4607 5.8238 7.4607C5.99898 7.4607 6.10873 7.35095 6.14461 7.31507L6.86643 6.59326C6.93818 6.5215 7.05216 6.43496 7.18512 6.43496C7.31598 6.43496 7.42362 6.51728 7.48904 6.58904C7.49115 6.59115 7.49115 6.59115 7.49326 6.59326L8.65619 7.75618C8.87358 7.97146 8.87358 8.19307 8.6583 8.41679Z" fill="#8F6DFF"/>
+														<path d="M5.40396 2.3787C5.95693 2.47157 6.45924 2.73328 6.86025 3.13429C7.26126 3.53529 7.52086 4.03761 7.61583 4.59058C7.63905 4.72987 7.75935 4.82696 7.89654 4.82696C7.91342 4.82696 7.92819 4.82485 7.94508 4.82274C8.10126 4.79741 8.20468 4.64967 8.17935 4.49349C8.06538 3.82444 7.7488 3.21449 7.26548 2.73117C6.78216 2.24785 6.17221 1.93126 5.50316 1.81729C5.34698 1.79196 5.20135 1.89538 5.17391 2.04945C5.14648 2.20353 5.24778 2.35338 5.40396 2.3787Z" fill="#8F6DFF"/>
+														<path d="M9.98831 4.41121C9.80046 3.30949 9.28126 2.30697 8.48347 1.50918C7.68568 0.711384 6.68316 0.192184 5.58144 0.00434386C5.42737 -0.0230935 5.28174 0.0824349 5.2543 0.236506C5.22897 0.392688 5.33239 0.538318 5.48857 0.565755C6.4721 0.73249 7.36909 1.19893 8.08246 1.91019C8.79583 2.62356 9.26016 3.52055 9.42689 4.50408C9.45011 4.64337 9.57041 4.74046 9.7076 4.74046C9.72448 4.74046 9.73926 4.73835 9.75614 4.73624C9.91021 4.71302 10.0157 4.56528 9.98831 4.41121Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__massage">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M8.92578 0.602539H1.07422C0.481895 0.602539 0 1.08443 0 1.67676V6.83301C0 7.42533 0.481895 7.90723 1.07422 7.90723H3.60379C3.63467 7.90723 3.66402 7.92205 3.68236 7.94691L4.60527 9.19814C4.69775 9.32356 4.84016 9.39588 4.99598 9.3966H4.99832C5.15324 9.3966 5.29537 9.32566 5.38854 9.20174L6.33238 7.94619C6.35072 7.92178 6.37992 7.90721 6.41045 7.90721H8.92578C9.51811 7.90721 10 7.42531 10 6.83299V1.67674C10 1.08441 9.51811 0.602539 8.92578 0.602539ZM9.41406 6.83301C9.41406 6.87914 9.4075 6.92373 9.39549 6.96605L6.38562 4.32762L9.41406 1.81438V6.83301ZM8.92578 1.18848C9.0151 1.18848 9.09883 1.2127 9.17092 1.25475L5.31266 4.45662C5.13195 4.60658 4.86971 4.60658 4.689 4.45662L0.830059 1.25418C0.901934 1.21248 0.985313 1.18848 1.07422 1.18848H8.92578ZM0.604512 6.96605C0.5925 6.92373 0.585938 6.87912 0.585938 6.83301V1.81301L3.6152 4.32689L0.604512 6.96605ZM5.86404 7.5941L4.99898 8.74482L4.15391 7.59912C4.02562 7.42514 3.81994 7.32127 3.60377 7.32127H1.08814L4.07178 4.70582L4.3148 4.9075C4.51357 5.07246 4.75715 5.1549 5.00082 5.1549C5.24441 5.1549 5.48809 5.0724 5.68682 4.9075L5.92898 4.70652L8.91182 7.32127H6.41045C6.19676 7.32129 5.99248 7.42326 5.86404 7.5941Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__other">
+													<span></span>
+													<span></span>
+													<span></span>
+												</button>
+											</div>
+										</div>
+										<div class="specialists__item-hover">
+											<p class="specialists__name">
+												<span>
+													Иванов
+												</span>
+												Иван
+											</p>
+											<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+										</div>
+										<div class="specialists__box">
+											<span class="specialists__active"></span>
+											<img src="assets/images/account/specialists/active.svg" alt="specialists">
+										</div>
+									</div>
+								</div>
+								
+								<div class="specialists__item specialists__none">
+									<div class="specialists__content">
+										<div class="specialists__item-before">
+											<div class="specialists__info">
+												<div class="specialists__avatar">
+													<span class="specialists__active"></span>
+													<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+												</div>
+												<div class="specialists__text">
+													<p class="specialists__name">
+														<span>Иван</span> Иванов
+													</p>
+													<span class="specialists__position">
+														Консультант
+													</span>
+													<span class="specialists__time">
+														Работает с 2012г
+													</span>
+												</div>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Задачи
+												</button>
+												<button class="specialists__btn">
+													Перерыв
+												</button>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Предупреждение
+												</button>
+												<button class="specialists__btn">
+													График
+												</button>
+											</div>
+											<div class="specialists__bottom">
+												<button class="specialists__camera">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M7.90271 6.19436C7.69799 5.98119 7.45105 5.86722 7.18934 5.86722C6.92974 5.86722 6.6807 5.97908 6.46753 6.19225L5.80059 6.85708C5.74571 6.82753 5.69084 6.80009 5.63807 6.77266C5.56209 6.73467 5.49034 6.69879 5.42913 6.6608C4.8044 6.26401 4.23666 5.74692 3.69213 5.07787C3.42831 4.7444 3.25102 4.46369 3.12228 4.17876C3.29534 4.02047 3.45575 3.85584 3.61193 3.69755C3.67103 3.63846 3.73012 3.57725 3.78922 3.51815C4.23244 3.07493 4.23244 2.50086 3.78922 2.05764L3.21303 1.48145C3.1476 1.41602 3.08007 1.34848 3.01675 1.28095C2.89011 1.15009 2.75715 1.01501 2.61996 0.888379C2.41524 0.685764 2.17041 0.578125 1.91292 0.578125C1.65543 0.578125 1.40639 0.685764 1.19533 0.888379C1.19322 0.89049 1.19322 0.89049 1.19111 0.8926L0.473514 1.61653C0.203361 1.88668 0.0492897 2.21593 0.0155206 2.59794C-0.035133 3.21423 0.146376 3.78831 0.285673 4.16399C0.627585 5.08631 1.13834 5.94109 1.90026 6.85708C2.82469 7.96091 3.93696 8.83257 5.20752 9.44675C5.69295 9.6768 6.34089 9.94907 7.06482 9.9955C7.10914 9.99761 7.15557 9.99972 7.19778 9.99972C7.68533 9.99972 8.09478 9.82454 8.41558 9.4763C8.41769 9.47208 8.42192 9.46997 8.42403 9.46575C8.53378 9.33278 8.66041 9.21248 8.79338 9.08373C8.88413 8.9972 8.97699 8.90645 9.06775 8.81147C9.2767 8.59408 9.38645 8.34081 9.38645 8.08121C9.38645 7.8195 9.27458 7.56834 9.06142 7.35728L7.90271 6.19436ZM8.6583 8.41679C8.65619 8.41679 8.65619 8.4189 8.6583 8.41679C8.57599 8.50544 8.49156 8.58564 8.40081 8.67428C8.26362 8.80514 8.12432 8.94233 7.99347 9.0964C7.7803 9.32434 7.52914 9.43198 7.1999 9.43198C7.16824 9.43198 7.13447 9.43198 7.10281 9.42987C6.47597 9.38977 5.89345 9.14494 5.45657 8.93599C4.26198 8.3577 3.21303 7.53668 2.34137 6.49617C1.62166 5.62873 1.14045 4.82671 0.821758 3.96559C0.625475 3.44006 0.553716 3.03061 0.585374 2.64438C0.60648 2.39744 0.701455 2.19271 0.876633 2.01754L1.59634 1.29783C1.69975 1.20074 1.8095 1.14798 1.91714 1.14798C2.05011 1.14798 2.15775 1.22818 2.22529 1.29572C2.2274 1.29783 2.22951 1.29994 2.23162 1.30205C2.36036 1.42235 2.48277 1.54688 2.61152 1.67984C2.67695 1.74738 2.74449 1.81492 2.81202 1.88457L3.38821 2.46076C3.61193 2.68448 3.61193 2.89131 3.38821 3.11503C3.327 3.17624 3.26791 3.23745 3.2067 3.29654C3.02941 3.47805 2.86057 3.6469 2.67695 3.81152C2.67273 3.81574 2.66851 3.81785 2.66639 3.82208C2.48489 4.00358 2.51865 4.18087 2.55664 4.30118C2.55876 4.30751 2.56087 4.31384 2.56298 4.32017C2.71283 4.68319 2.92388 5.0251 3.24469 5.43244L3.2468 5.43455C3.82932 6.15215 4.44349 6.71145 5.12099 7.1399C5.20752 7.19477 5.29616 7.23909 5.38059 7.2813C5.45657 7.31929 5.52833 7.35517 5.58953 7.39316C5.59797 7.39739 5.60642 7.40372 5.61486 7.40794C5.68662 7.44382 5.75416 7.4607 5.8238 7.4607C5.99898 7.4607 6.10873 7.35095 6.14461 7.31507L6.86643 6.59326C6.93818 6.5215 7.05216 6.43496 7.18512 6.43496C7.31598 6.43496 7.42362 6.51728 7.48904 6.58904C7.49115 6.59115 7.49115 6.59115 7.49326 6.59326L8.65619 7.75618C8.87358 7.97146 8.87358 8.19307 8.6583 8.41679Z" fill="#8F6DFF"/>
+														<path d="M5.40396 2.3787C5.95693 2.47157 6.45924 2.73328 6.86025 3.13429C7.26126 3.53529 7.52086 4.03761 7.61583 4.59058C7.63905 4.72987 7.75935 4.82696 7.89654 4.82696C7.91342 4.82696 7.92819 4.82485 7.94508 4.82274C8.10126 4.79741 8.20468 4.64967 8.17935 4.49349C8.06538 3.82444 7.7488 3.21449 7.26548 2.73117C6.78216 2.24785 6.17221 1.93126 5.50316 1.81729C5.34698 1.79196 5.20135 1.89538 5.17391 2.04945C5.14648 2.20353 5.24778 2.35338 5.40396 2.3787Z" fill="#8F6DFF"/>
+														<path d="M9.98831 4.41121C9.80046 3.30949 9.28126 2.30697 8.48347 1.50918C7.68568 0.711384 6.68316 0.192184 5.58144 0.00434386C5.42737 -0.0230935 5.28174 0.0824349 5.2543 0.236506C5.22897 0.392688 5.33239 0.538318 5.48857 0.565755C6.4721 0.73249 7.36909 1.19893 8.08246 1.91019C8.79583 2.62356 9.26016 3.52055 9.42689 4.50408C9.45011 4.64337 9.57041 4.74046 9.7076 4.74046C9.72448 4.74046 9.73926 4.73835 9.75614 4.73624C9.91021 4.71302 10.0157 4.56528 9.98831 4.41121Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__massage">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M8.92578 0.602539H1.07422C0.481895 0.602539 0 1.08443 0 1.67676V6.83301C0 7.42533 0.481895 7.90723 1.07422 7.90723H3.60379C3.63467 7.90723 3.66402 7.92205 3.68236 7.94691L4.60527 9.19814C4.69775 9.32356 4.84016 9.39588 4.99598 9.3966H4.99832C5.15324 9.3966 5.29537 9.32566 5.38854 9.20174L6.33238 7.94619C6.35072 7.92178 6.37992 7.90721 6.41045 7.90721H8.92578C9.51811 7.90721 10 7.42531 10 6.83299V1.67674C10 1.08441 9.51811 0.602539 8.92578 0.602539ZM9.41406 6.83301C9.41406 6.87914 9.4075 6.92373 9.39549 6.96605L6.38562 4.32762L9.41406 1.81438V6.83301ZM8.92578 1.18848C9.0151 1.18848 9.09883 1.2127 9.17092 1.25475L5.31266 4.45662C5.13195 4.60658 4.86971 4.60658 4.689 4.45662L0.830059 1.25418C0.901934 1.21248 0.985313 1.18848 1.07422 1.18848H8.92578ZM0.604512 6.96605C0.5925 6.92373 0.585938 6.87912 0.585938 6.83301V1.81301L3.6152 4.32689L0.604512 6.96605ZM5.86404 7.5941L4.99898 8.74482L4.15391 7.59912C4.02562 7.42514 3.81994 7.32127 3.60377 7.32127H1.08814L4.07178 4.70582L4.3148 4.9075C4.51357 5.07246 4.75715 5.1549 5.00082 5.1549C5.24441 5.1549 5.48809 5.0724 5.68682 4.9075L5.92898 4.70652L8.91182 7.32127H6.41045C6.19676 7.32129 5.99248 7.42326 5.86404 7.5941Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__other">
+													<span></span>
+													<span></span>
+													<span></span>
+												</button>
+											</div>
+										</div>
+										<div class="specialists__item-hover">
+											<p class="specialists__name">
+												<span>
+													Иванов
+												</span>
+												Иван
+											</p>
+											<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+										</div>
+										<div class="specialists__box">
+											<span class="specialists__active"></span>
+											<img src="assets/images/account/specialists/none.svg" alt="specialists">
+										</div>
+									</div>
+								</div>
+								
+								<div class="specialists__item specialists__wait">
+									<div class="specialists__content">
+										<div class="specialists__item-before">
+											<div class="specialists__info">
+												<div class="specialists__avatar">
+													<span class="specialists__active"></span>
+													<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+												</div>
+												<div class="specialists__text">
+													<p class="specialists__name">
+														<span>Иван</span> Иванов
+													</p>
+													<span class="specialists__position">
+														Консультант
+													</span>
+													<span class="specialists__time">
+														Работает с 2012г
+													</span>
+												</div>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Задачи
+												</button>
+												<button class="specialists__btn">
+													Перерыв
+												</button>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Предупреждение
+												</button>
+												<button class="specialists__btn">
+													График
+												</button>
+											</div>
+											<div class="specialists__bottom">
+												<button class="specialists__camera">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M7.90271 6.19436C7.69799 5.98119 7.45105 5.86722 7.18934 5.86722C6.92974 5.86722 6.6807 5.97908 6.46753 6.19225L5.80059 6.85708C5.74571 6.82753 5.69084 6.80009 5.63807 6.77266C5.56209 6.73467 5.49034 6.69879 5.42913 6.6608C4.8044 6.26401 4.23666 5.74692 3.69213 5.07787C3.42831 4.7444 3.25102 4.46369 3.12228 4.17876C3.29534 4.02047 3.45575 3.85584 3.61193 3.69755C3.67103 3.63846 3.73012 3.57725 3.78922 3.51815C4.23244 3.07493 4.23244 2.50086 3.78922 2.05764L3.21303 1.48145C3.1476 1.41602 3.08007 1.34848 3.01675 1.28095C2.89011 1.15009 2.75715 1.01501 2.61996 0.888379C2.41524 0.685764 2.17041 0.578125 1.91292 0.578125C1.65543 0.578125 1.40639 0.685764 1.19533 0.888379C1.19322 0.89049 1.19322 0.89049 1.19111 0.8926L0.473514 1.61653C0.203361 1.88668 0.0492897 2.21593 0.0155206 2.59794C-0.035133 3.21423 0.146376 3.78831 0.285673 4.16399C0.627585 5.08631 1.13834 5.94109 1.90026 6.85708C2.82469 7.96091 3.93696 8.83257 5.20752 9.44675C5.69295 9.6768 6.34089 9.94907 7.06482 9.9955C7.10914 9.99761 7.15557 9.99972 7.19778 9.99972C7.68533 9.99972 8.09478 9.82454 8.41558 9.4763C8.41769 9.47208 8.42192 9.46997 8.42403 9.46575C8.53378 9.33278 8.66041 9.21248 8.79338 9.08373C8.88413 8.9972 8.97699 8.90645 9.06775 8.81147C9.2767 8.59408 9.38645 8.34081 9.38645 8.08121C9.38645 7.8195 9.27458 7.56834 9.06142 7.35728L7.90271 6.19436ZM8.6583 8.41679C8.65619 8.41679 8.65619 8.4189 8.6583 8.41679C8.57599 8.50544 8.49156 8.58564 8.40081 8.67428C8.26362 8.80514 8.12432 8.94233 7.99347 9.0964C7.7803 9.32434 7.52914 9.43198 7.1999 9.43198C7.16824 9.43198 7.13447 9.43198 7.10281 9.42987C6.47597 9.38977 5.89345 9.14494 5.45657 8.93599C4.26198 8.3577 3.21303 7.53668 2.34137 6.49617C1.62166 5.62873 1.14045 4.82671 0.821758 3.96559C0.625475 3.44006 0.553716 3.03061 0.585374 2.64438C0.60648 2.39744 0.701455 2.19271 0.876633 2.01754L1.59634 1.29783C1.69975 1.20074 1.8095 1.14798 1.91714 1.14798C2.05011 1.14798 2.15775 1.22818 2.22529 1.29572C2.2274 1.29783 2.22951 1.29994 2.23162 1.30205C2.36036 1.42235 2.48277 1.54688 2.61152 1.67984C2.67695 1.74738 2.74449 1.81492 2.81202 1.88457L3.38821 2.46076C3.61193 2.68448 3.61193 2.89131 3.38821 3.11503C3.327 3.17624 3.26791 3.23745 3.2067 3.29654C3.02941 3.47805 2.86057 3.6469 2.67695 3.81152C2.67273 3.81574 2.66851 3.81785 2.66639 3.82208C2.48489 4.00358 2.51865 4.18087 2.55664 4.30118C2.55876 4.30751 2.56087 4.31384 2.56298 4.32017C2.71283 4.68319 2.92388 5.0251 3.24469 5.43244L3.2468 5.43455C3.82932 6.15215 4.44349 6.71145 5.12099 7.1399C5.20752 7.19477 5.29616 7.23909 5.38059 7.2813C5.45657 7.31929 5.52833 7.35517 5.58953 7.39316C5.59797 7.39739 5.60642 7.40372 5.61486 7.40794C5.68662 7.44382 5.75416 7.4607 5.8238 7.4607C5.99898 7.4607 6.10873 7.35095 6.14461 7.31507L6.86643 6.59326C6.93818 6.5215 7.05216 6.43496 7.18512 6.43496C7.31598 6.43496 7.42362 6.51728 7.48904 6.58904C7.49115 6.59115 7.49115 6.59115 7.49326 6.59326L8.65619 7.75618C8.87358 7.97146 8.87358 8.19307 8.6583 8.41679Z" fill="#8F6DFF"/>
+														<path d="M5.40396 2.3787C5.95693 2.47157 6.45924 2.73328 6.86025 3.13429C7.26126 3.53529 7.52086 4.03761 7.61583 4.59058C7.63905 4.72987 7.75935 4.82696 7.89654 4.82696C7.91342 4.82696 7.92819 4.82485 7.94508 4.82274C8.10126 4.79741 8.20468 4.64967 8.17935 4.49349C8.06538 3.82444 7.7488 3.21449 7.26548 2.73117C6.78216 2.24785 6.17221 1.93126 5.50316 1.81729C5.34698 1.79196 5.20135 1.89538 5.17391 2.04945C5.14648 2.20353 5.24778 2.35338 5.40396 2.3787Z" fill="#8F6DFF"/>
+														<path d="M9.98831 4.41121C9.80046 3.30949 9.28126 2.30697 8.48347 1.50918C7.68568 0.711384 6.68316 0.192184 5.58144 0.00434386C5.42737 -0.0230935 5.28174 0.0824349 5.2543 0.236506C5.22897 0.392688 5.33239 0.538318 5.48857 0.565755C6.4721 0.73249 7.36909 1.19893 8.08246 1.91019C8.79583 2.62356 9.26016 3.52055 9.42689 4.50408C9.45011 4.64337 9.57041 4.74046 9.7076 4.74046C9.72448 4.74046 9.73926 4.73835 9.75614 4.73624C9.91021 4.71302 10.0157 4.56528 9.98831 4.41121Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__massage">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M8.92578 0.602539H1.07422C0.481895 0.602539 0 1.08443 0 1.67676V6.83301C0 7.42533 0.481895 7.90723 1.07422 7.90723H3.60379C3.63467 7.90723 3.66402 7.92205 3.68236 7.94691L4.60527 9.19814C4.69775 9.32356 4.84016 9.39588 4.99598 9.3966H4.99832C5.15324 9.3966 5.29537 9.32566 5.38854 9.20174L6.33238 7.94619C6.35072 7.92178 6.37992 7.90721 6.41045 7.90721H8.92578C9.51811 7.90721 10 7.42531 10 6.83299V1.67674C10 1.08441 9.51811 0.602539 8.92578 0.602539ZM9.41406 6.83301C9.41406 6.87914 9.4075 6.92373 9.39549 6.96605L6.38562 4.32762L9.41406 1.81438V6.83301ZM8.92578 1.18848C9.0151 1.18848 9.09883 1.2127 9.17092 1.25475L5.31266 4.45662C5.13195 4.60658 4.86971 4.60658 4.689 4.45662L0.830059 1.25418C0.901934 1.21248 0.985313 1.18848 1.07422 1.18848H8.92578ZM0.604512 6.96605C0.5925 6.92373 0.585938 6.87912 0.585938 6.83301V1.81301L3.6152 4.32689L0.604512 6.96605ZM5.86404 7.5941L4.99898 8.74482L4.15391 7.59912C4.02562 7.42514 3.81994 7.32127 3.60377 7.32127H1.08814L4.07178 4.70582L4.3148 4.9075C4.51357 5.07246 4.75715 5.1549 5.00082 5.1549C5.24441 5.1549 5.48809 5.0724 5.68682 4.9075L5.92898 4.70652L8.91182 7.32127H6.41045C6.19676 7.32129 5.99248 7.42326 5.86404 7.5941Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__other">
+													<span></span>
+													<span></span>
+													<span></span>
+												</button>
+											</div>
+										</div>
+										<div class="specialists__item-hover">
+											<p class="specialists__name">
+												<span>
+													Иванов
+												</span>
+												Иван
+											</p>
+											<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+										</div>
+										<div class="specialists__box">
+											<span class="specialists__active"></span>
+											<img src="assets/images/account/specialists/none.svg" alt="specialists">
+										</div>
+									</div>
+								</div>
+								
+								<div class="specialists__item">
+									<div class="specialists__content">
+										<div class="specialists__item-before">
+											<div class="specialists__info">
+												<div class="specialists__avatar">
+													<span class="specialists__active"></span>
+													<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+												</div>
+												<div class="specialists__text">
+													<p class="specialists__name">
+														<span>Иван</span> Иванов
+													</p>
+													<span class="specialists__position">
+														Консультант
+													</span>
+													<span class="specialists__time">
+														Работает с 2012г
+													</span>
+												</div>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Задачи
+												</button>
+												<button class="specialists__btn">
+													Перерыв
+												</button>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Предупреждение
+												</button>
+												<button class="specialists__btn">
+													График
+												</button>
+											</div>
+											<div class="specialists__bottom">
+												<button class="specialists__camera">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M7.90271 6.19436C7.69799 5.98119 7.45105 5.86722 7.18934 5.86722C6.92974 5.86722 6.6807 5.97908 6.46753 6.19225L5.80059 6.85708C5.74571 6.82753 5.69084 6.80009 5.63807 6.77266C5.56209 6.73467 5.49034 6.69879 5.42913 6.6608C4.8044 6.26401 4.23666 5.74692 3.69213 5.07787C3.42831 4.7444 3.25102 4.46369 3.12228 4.17876C3.29534 4.02047 3.45575 3.85584 3.61193 3.69755C3.67103 3.63846 3.73012 3.57725 3.78922 3.51815C4.23244 3.07493 4.23244 2.50086 3.78922 2.05764L3.21303 1.48145C3.1476 1.41602 3.08007 1.34848 3.01675 1.28095C2.89011 1.15009 2.75715 1.01501 2.61996 0.888379C2.41524 0.685764 2.17041 0.578125 1.91292 0.578125C1.65543 0.578125 1.40639 0.685764 1.19533 0.888379C1.19322 0.89049 1.19322 0.89049 1.19111 0.8926L0.473514 1.61653C0.203361 1.88668 0.0492897 2.21593 0.0155206 2.59794C-0.035133 3.21423 0.146376 3.78831 0.285673 4.16399C0.627585 5.08631 1.13834 5.94109 1.90026 6.85708C2.82469 7.96091 3.93696 8.83257 5.20752 9.44675C5.69295 9.6768 6.34089 9.94907 7.06482 9.9955C7.10914 9.99761 7.15557 9.99972 7.19778 9.99972C7.68533 9.99972 8.09478 9.82454 8.41558 9.4763C8.41769 9.47208 8.42192 9.46997 8.42403 9.46575C8.53378 9.33278 8.66041 9.21248 8.79338 9.08373C8.88413 8.9972 8.97699 8.90645 9.06775 8.81147C9.2767 8.59408 9.38645 8.34081 9.38645 8.08121C9.38645 7.8195 9.27458 7.56834 9.06142 7.35728L7.90271 6.19436ZM8.6583 8.41679C8.65619 8.41679 8.65619 8.4189 8.6583 8.41679C8.57599 8.50544 8.49156 8.58564 8.40081 8.67428C8.26362 8.80514 8.12432 8.94233 7.99347 9.0964C7.7803 9.32434 7.52914 9.43198 7.1999 9.43198C7.16824 9.43198 7.13447 9.43198 7.10281 9.42987C6.47597 9.38977 5.89345 9.14494 5.45657 8.93599C4.26198 8.3577 3.21303 7.53668 2.34137 6.49617C1.62166 5.62873 1.14045 4.82671 0.821758 3.96559C0.625475 3.44006 0.553716 3.03061 0.585374 2.64438C0.60648 2.39744 0.701455 2.19271 0.876633 2.01754L1.59634 1.29783C1.69975 1.20074 1.8095 1.14798 1.91714 1.14798C2.05011 1.14798 2.15775 1.22818 2.22529 1.29572C2.2274 1.29783 2.22951 1.29994 2.23162 1.30205C2.36036 1.42235 2.48277 1.54688 2.61152 1.67984C2.67695 1.74738 2.74449 1.81492 2.81202 1.88457L3.38821 2.46076C3.61193 2.68448 3.61193 2.89131 3.38821 3.11503C3.327 3.17624 3.26791 3.23745 3.2067 3.29654C3.02941 3.47805 2.86057 3.6469 2.67695 3.81152C2.67273 3.81574 2.66851 3.81785 2.66639 3.82208C2.48489 4.00358 2.51865 4.18087 2.55664 4.30118C2.55876 4.30751 2.56087 4.31384 2.56298 4.32017C2.71283 4.68319 2.92388 5.0251 3.24469 5.43244L3.2468 5.43455C3.82932 6.15215 4.44349 6.71145 5.12099 7.1399C5.20752 7.19477 5.29616 7.23909 5.38059 7.2813C5.45657 7.31929 5.52833 7.35517 5.58953 7.39316C5.59797 7.39739 5.60642 7.40372 5.61486 7.40794C5.68662 7.44382 5.75416 7.4607 5.8238 7.4607C5.99898 7.4607 6.10873 7.35095 6.14461 7.31507L6.86643 6.59326C6.93818 6.5215 7.05216 6.43496 7.18512 6.43496C7.31598 6.43496 7.42362 6.51728 7.48904 6.58904C7.49115 6.59115 7.49115 6.59115 7.49326 6.59326L8.65619 7.75618C8.87358 7.97146 8.87358 8.19307 8.6583 8.41679Z" fill="#8F6DFF"/>
+														<path d="M5.40396 2.3787C5.95693 2.47157 6.45924 2.73328 6.86025 3.13429C7.26126 3.53529 7.52086 4.03761 7.61583 4.59058C7.63905 4.72987 7.75935 4.82696 7.89654 4.82696C7.91342 4.82696 7.92819 4.82485 7.94508 4.82274C8.10126 4.79741 8.20468 4.64967 8.17935 4.49349C8.06538 3.82444 7.7488 3.21449 7.26548 2.73117C6.78216 2.24785 6.17221 1.93126 5.50316 1.81729C5.34698 1.79196 5.20135 1.89538 5.17391 2.04945C5.14648 2.20353 5.24778 2.35338 5.40396 2.3787Z" fill="#8F6DFF"/>
+														<path d="M9.98831 4.41121C9.80046 3.30949 9.28126 2.30697 8.48347 1.50918C7.68568 0.711384 6.68316 0.192184 5.58144 0.00434386C5.42737 -0.0230935 5.28174 0.0824349 5.2543 0.236506C5.22897 0.392688 5.33239 0.538318 5.48857 0.565755C6.4721 0.73249 7.36909 1.19893 8.08246 1.91019C8.79583 2.62356 9.26016 3.52055 9.42689 4.50408C9.45011 4.64337 9.57041 4.74046 9.7076 4.74046C9.72448 4.74046 9.73926 4.73835 9.75614 4.73624C9.91021 4.71302 10.0157 4.56528 9.98831 4.41121Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__massage">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M8.92578 0.602539H1.07422C0.481895 0.602539 0 1.08443 0 1.67676V6.83301C0 7.42533 0.481895 7.90723 1.07422 7.90723H3.60379C3.63467 7.90723 3.66402 7.92205 3.68236 7.94691L4.60527 9.19814C4.69775 9.32356 4.84016 9.39588 4.99598 9.3966H4.99832C5.15324 9.3966 5.29537 9.32566 5.38854 9.20174L6.33238 7.94619C6.35072 7.92178 6.37992 7.90721 6.41045 7.90721H8.92578C9.51811 7.90721 10 7.42531 10 6.83299V1.67674C10 1.08441 9.51811 0.602539 8.92578 0.602539ZM9.41406 6.83301C9.41406 6.87914 9.4075 6.92373 9.39549 6.96605L6.38562 4.32762L9.41406 1.81438V6.83301ZM8.92578 1.18848C9.0151 1.18848 9.09883 1.2127 9.17092 1.25475L5.31266 4.45662C5.13195 4.60658 4.86971 4.60658 4.689 4.45662L0.830059 1.25418C0.901934 1.21248 0.985313 1.18848 1.07422 1.18848H8.92578ZM0.604512 6.96605C0.5925 6.92373 0.585938 6.87912 0.585938 6.83301V1.81301L3.6152 4.32689L0.604512 6.96605ZM5.86404 7.5941L4.99898 8.74482L4.15391 7.59912C4.02562 7.42514 3.81994 7.32127 3.60377 7.32127H1.08814L4.07178 4.70582L4.3148 4.9075C4.51357 5.07246 4.75715 5.1549 5.00082 5.1549C5.24441 5.1549 5.48809 5.0724 5.68682 4.9075L5.92898 4.70652L8.91182 7.32127H6.41045C6.19676 7.32129 5.99248 7.42326 5.86404 7.5941Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__other">
+													<span></span>
+													<span></span>
+													<span></span>
+												</button>
+											</div>
+										</div>
+										<div class="specialists__item-hover">
+											<p class="specialists__name">
+												<span>
+													Иванов
+												</span>
+												Иван
+											</p>
+											<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+										</div>
+										<div class="specialists__box">
+											<span class="specialists__active"></span>
+											<img src="assets/images/account/specialists/active.svg" alt="specialists">
+										</div>
+									</div>
+								</div>
+								
+								<div class="specialists__item specialists__none">
+									<div class="specialists__content">
+										<div class="specialists__item-before">
+											<div class="specialists__info">
+												<div class="specialists__avatar">
+													<span class="specialists__active"></span>
+													<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+												</div>
+												<div class="specialists__text">
+													<p class="specialists__name">
+														<span>Иван</span> Иванов
+													</p>
+													<span class="specialists__position">
+														Консультант
+													</span>
+													<span class="specialists__time">
+														Работает с 2012г
+													</span>
+												</div>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Задачи
+												</button>
+												<button class="specialists__btn">
+													Перерыв
+												</button>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Предупреждение
+												</button>
+												<button class="specialists__btn">
+													График
+												</button>
+											</div>
+											<div class="specialists__bottom">
+												<button class="specialists__camera">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M7.90271 6.19436C7.69799 5.98119 7.45105 5.86722 7.18934 5.86722C6.92974 5.86722 6.6807 5.97908 6.46753 6.19225L5.80059 6.85708C5.74571 6.82753 5.69084 6.80009 5.63807 6.77266C5.56209 6.73467 5.49034 6.69879 5.42913 6.6608C4.8044 6.26401 4.23666 5.74692 3.69213 5.07787C3.42831 4.7444 3.25102 4.46369 3.12228 4.17876C3.29534 4.02047 3.45575 3.85584 3.61193 3.69755C3.67103 3.63846 3.73012 3.57725 3.78922 3.51815C4.23244 3.07493 4.23244 2.50086 3.78922 2.05764L3.21303 1.48145C3.1476 1.41602 3.08007 1.34848 3.01675 1.28095C2.89011 1.15009 2.75715 1.01501 2.61996 0.888379C2.41524 0.685764 2.17041 0.578125 1.91292 0.578125C1.65543 0.578125 1.40639 0.685764 1.19533 0.888379C1.19322 0.89049 1.19322 0.89049 1.19111 0.8926L0.473514 1.61653C0.203361 1.88668 0.0492897 2.21593 0.0155206 2.59794C-0.035133 3.21423 0.146376 3.78831 0.285673 4.16399C0.627585 5.08631 1.13834 5.94109 1.90026 6.85708C2.82469 7.96091 3.93696 8.83257 5.20752 9.44675C5.69295 9.6768 6.34089 9.94907 7.06482 9.9955C7.10914 9.99761 7.15557 9.99972 7.19778 9.99972C7.68533 9.99972 8.09478 9.82454 8.41558 9.4763C8.41769 9.47208 8.42192 9.46997 8.42403 9.46575C8.53378 9.33278 8.66041 9.21248 8.79338 9.08373C8.88413 8.9972 8.97699 8.90645 9.06775 8.81147C9.2767 8.59408 9.38645 8.34081 9.38645 8.08121C9.38645 7.8195 9.27458 7.56834 9.06142 7.35728L7.90271 6.19436ZM8.6583 8.41679C8.65619 8.41679 8.65619 8.4189 8.6583 8.41679C8.57599 8.50544 8.49156 8.58564 8.40081 8.67428C8.26362 8.80514 8.12432 8.94233 7.99347 9.0964C7.7803 9.32434 7.52914 9.43198 7.1999 9.43198C7.16824 9.43198 7.13447 9.43198 7.10281 9.42987C6.47597 9.38977 5.89345 9.14494 5.45657 8.93599C4.26198 8.3577 3.21303 7.53668 2.34137 6.49617C1.62166 5.62873 1.14045 4.82671 0.821758 3.96559C0.625475 3.44006 0.553716 3.03061 0.585374 2.64438C0.60648 2.39744 0.701455 2.19271 0.876633 2.01754L1.59634 1.29783C1.69975 1.20074 1.8095 1.14798 1.91714 1.14798C2.05011 1.14798 2.15775 1.22818 2.22529 1.29572C2.2274 1.29783 2.22951 1.29994 2.23162 1.30205C2.36036 1.42235 2.48277 1.54688 2.61152 1.67984C2.67695 1.74738 2.74449 1.81492 2.81202 1.88457L3.38821 2.46076C3.61193 2.68448 3.61193 2.89131 3.38821 3.11503C3.327 3.17624 3.26791 3.23745 3.2067 3.29654C3.02941 3.47805 2.86057 3.6469 2.67695 3.81152C2.67273 3.81574 2.66851 3.81785 2.66639 3.82208C2.48489 4.00358 2.51865 4.18087 2.55664 4.30118C2.55876 4.30751 2.56087 4.31384 2.56298 4.32017C2.71283 4.68319 2.92388 5.0251 3.24469 5.43244L3.2468 5.43455C3.82932 6.15215 4.44349 6.71145 5.12099 7.1399C5.20752 7.19477 5.29616 7.23909 5.38059 7.2813C5.45657 7.31929 5.52833 7.35517 5.58953 7.39316C5.59797 7.39739 5.60642 7.40372 5.61486 7.40794C5.68662 7.44382 5.75416 7.4607 5.8238 7.4607C5.99898 7.4607 6.10873 7.35095 6.14461 7.31507L6.86643 6.59326C6.93818 6.5215 7.05216 6.43496 7.18512 6.43496C7.31598 6.43496 7.42362 6.51728 7.48904 6.58904C7.49115 6.59115 7.49115 6.59115 7.49326 6.59326L8.65619 7.75618C8.87358 7.97146 8.87358 8.19307 8.6583 8.41679Z" fill="#8F6DFF"/>
+														<path d="M5.40396 2.3787C5.95693 2.47157 6.45924 2.73328 6.86025 3.13429C7.26126 3.53529 7.52086 4.03761 7.61583 4.59058C7.63905 4.72987 7.75935 4.82696 7.89654 4.82696C7.91342 4.82696 7.92819 4.82485 7.94508 4.82274C8.10126 4.79741 8.20468 4.64967 8.17935 4.49349C8.06538 3.82444 7.7488 3.21449 7.26548 2.73117C6.78216 2.24785 6.17221 1.93126 5.50316 1.81729C5.34698 1.79196 5.20135 1.89538 5.17391 2.04945C5.14648 2.20353 5.24778 2.35338 5.40396 2.3787Z" fill="#8F6DFF"/>
+														<path d="M9.98831 4.41121C9.80046 3.30949 9.28126 2.30697 8.48347 1.50918C7.68568 0.711384 6.68316 0.192184 5.58144 0.00434386C5.42737 -0.0230935 5.28174 0.0824349 5.2543 0.236506C5.22897 0.392688 5.33239 0.538318 5.48857 0.565755C6.4721 0.73249 7.36909 1.19893 8.08246 1.91019C8.79583 2.62356 9.26016 3.52055 9.42689 4.50408C9.45011 4.64337 9.57041 4.74046 9.7076 4.74046C9.72448 4.74046 9.73926 4.73835 9.75614 4.73624C9.91021 4.71302 10.0157 4.56528 9.98831 4.41121Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__massage">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M8.92578 0.602539H1.07422C0.481895 0.602539 0 1.08443 0 1.67676V6.83301C0 7.42533 0.481895 7.90723 1.07422 7.90723H3.60379C3.63467 7.90723 3.66402 7.92205 3.68236 7.94691L4.60527 9.19814C4.69775 9.32356 4.84016 9.39588 4.99598 9.3966H4.99832C5.15324 9.3966 5.29537 9.32566 5.38854 9.20174L6.33238 7.94619C6.35072 7.92178 6.37992 7.90721 6.41045 7.90721H8.92578C9.51811 7.90721 10 7.42531 10 6.83299V1.67674C10 1.08441 9.51811 0.602539 8.92578 0.602539ZM9.41406 6.83301C9.41406 6.87914 9.4075 6.92373 9.39549 6.96605L6.38562 4.32762L9.41406 1.81438V6.83301ZM8.92578 1.18848C9.0151 1.18848 9.09883 1.2127 9.17092 1.25475L5.31266 4.45662C5.13195 4.60658 4.86971 4.60658 4.689 4.45662L0.830059 1.25418C0.901934 1.21248 0.985313 1.18848 1.07422 1.18848H8.92578ZM0.604512 6.96605C0.5925 6.92373 0.585938 6.87912 0.585938 6.83301V1.81301L3.6152 4.32689L0.604512 6.96605ZM5.86404 7.5941L4.99898 8.74482L4.15391 7.59912C4.02562 7.42514 3.81994 7.32127 3.60377 7.32127H1.08814L4.07178 4.70582L4.3148 4.9075C4.51357 5.07246 4.75715 5.1549 5.00082 5.1549C5.24441 5.1549 5.48809 5.0724 5.68682 4.9075L5.92898 4.70652L8.91182 7.32127H6.41045C6.19676 7.32129 5.99248 7.42326 5.86404 7.5941Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__other">
+													<span></span>
+													<span></span>
+													<span></span>
+												</button>
+											</div>
+										</div>
+										<div class="specialists__item-hover">
+											<p class="specialists__name">
+												<span>
+													Иванов
+												</span>
+												Иван
+											</p>
+											<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+										</div>
+										<div class="specialists__box">
+											<span class="specialists__active"></span>
+											<img src="assets/images/account/specialists/none.svg" alt="specialists">
+										</div>
+									</div>
+								</div>
+								
+								<div class="specialists__item specialists__wait">
+									<div class="specialists__content">
+										<div class="specialists__item-before">
+											<div class="specialists__info">
+												<div class="specialists__avatar">
+													<span class="specialists__active"></span>
+													<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+												</div>
+												<div class="specialists__text">
+													<p class="specialists__name">
+														<span>Иван</span> Иванов
+													</p>
+													<span class="specialists__position">
+														Консультант
+													</span>
+													<span class="specialists__time">
+														Работает с 2012г
+													</span>
+												</div>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Задачи
+												</button>
+												<button class="specialists__btn">
+													Перерыв
+												</button>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Предупреждение
+												</button>
+												<button class="specialists__btn">
+													График
+												</button>
+											</div>
+											<div class="specialists__bottom">
+												<button class="specialists__camera">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M7.90271 6.19436C7.69799 5.98119 7.45105 5.86722 7.18934 5.86722C6.92974 5.86722 6.6807 5.97908 6.46753 6.19225L5.80059 6.85708C5.74571 6.82753 5.69084 6.80009 5.63807 6.77266C5.56209 6.73467 5.49034 6.69879 5.42913 6.6608C4.8044 6.26401 4.23666 5.74692 3.69213 5.07787C3.42831 4.7444 3.25102 4.46369 3.12228 4.17876C3.29534 4.02047 3.45575 3.85584 3.61193 3.69755C3.67103 3.63846 3.73012 3.57725 3.78922 3.51815C4.23244 3.07493 4.23244 2.50086 3.78922 2.05764L3.21303 1.48145C3.1476 1.41602 3.08007 1.34848 3.01675 1.28095C2.89011 1.15009 2.75715 1.01501 2.61996 0.888379C2.41524 0.685764 2.17041 0.578125 1.91292 0.578125C1.65543 0.578125 1.40639 0.685764 1.19533 0.888379C1.19322 0.89049 1.19322 0.89049 1.19111 0.8926L0.473514 1.61653C0.203361 1.88668 0.0492897 2.21593 0.0155206 2.59794C-0.035133 3.21423 0.146376 3.78831 0.285673 4.16399C0.627585 5.08631 1.13834 5.94109 1.90026 6.85708C2.82469 7.96091 3.93696 8.83257 5.20752 9.44675C5.69295 9.6768 6.34089 9.94907 7.06482 9.9955C7.10914 9.99761 7.15557 9.99972 7.19778 9.99972C7.68533 9.99972 8.09478 9.82454 8.41558 9.4763C8.41769 9.47208 8.42192 9.46997 8.42403 9.46575C8.53378 9.33278 8.66041 9.21248 8.79338 9.08373C8.88413 8.9972 8.97699 8.90645 9.06775 8.81147C9.2767 8.59408 9.38645 8.34081 9.38645 8.08121C9.38645 7.8195 9.27458 7.56834 9.06142 7.35728L7.90271 6.19436ZM8.6583 8.41679C8.65619 8.41679 8.65619 8.4189 8.6583 8.41679C8.57599 8.50544 8.49156 8.58564 8.40081 8.67428C8.26362 8.80514 8.12432 8.94233 7.99347 9.0964C7.7803 9.32434 7.52914 9.43198 7.1999 9.43198C7.16824 9.43198 7.13447 9.43198 7.10281 9.42987C6.47597 9.38977 5.89345 9.14494 5.45657 8.93599C4.26198 8.3577 3.21303 7.53668 2.34137 6.49617C1.62166 5.62873 1.14045 4.82671 0.821758 3.96559C0.625475 3.44006 0.553716 3.03061 0.585374 2.64438C0.60648 2.39744 0.701455 2.19271 0.876633 2.01754L1.59634 1.29783C1.69975 1.20074 1.8095 1.14798 1.91714 1.14798C2.05011 1.14798 2.15775 1.22818 2.22529 1.29572C2.2274 1.29783 2.22951 1.29994 2.23162 1.30205C2.36036 1.42235 2.48277 1.54688 2.61152 1.67984C2.67695 1.74738 2.74449 1.81492 2.81202 1.88457L3.38821 2.46076C3.61193 2.68448 3.61193 2.89131 3.38821 3.11503C3.327 3.17624 3.26791 3.23745 3.2067 3.29654C3.02941 3.47805 2.86057 3.6469 2.67695 3.81152C2.67273 3.81574 2.66851 3.81785 2.66639 3.82208C2.48489 4.00358 2.51865 4.18087 2.55664 4.30118C2.55876 4.30751 2.56087 4.31384 2.56298 4.32017C2.71283 4.68319 2.92388 5.0251 3.24469 5.43244L3.2468 5.43455C3.82932 6.15215 4.44349 6.71145 5.12099 7.1399C5.20752 7.19477 5.29616 7.23909 5.38059 7.2813C5.45657 7.31929 5.52833 7.35517 5.58953 7.39316C5.59797 7.39739 5.60642 7.40372 5.61486 7.40794C5.68662 7.44382 5.75416 7.4607 5.8238 7.4607C5.99898 7.4607 6.10873 7.35095 6.14461 7.31507L6.86643 6.59326C6.93818 6.5215 7.05216 6.43496 7.18512 6.43496C7.31598 6.43496 7.42362 6.51728 7.48904 6.58904C7.49115 6.59115 7.49115 6.59115 7.49326 6.59326L8.65619 7.75618C8.87358 7.97146 8.87358 8.19307 8.6583 8.41679Z" fill="#8F6DFF"/>
+														<path d="M5.40396 2.3787C5.95693 2.47157 6.45924 2.73328 6.86025 3.13429C7.26126 3.53529 7.52086 4.03761 7.61583 4.59058C7.63905 4.72987 7.75935 4.82696 7.89654 4.82696C7.91342 4.82696 7.92819 4.82485 7.94508 4.82274C8.10126 4.79741 8.20468 4.64967 8.17935 4.49349C8.06538 3.82444 7.7488 3.21449 7.26548 2.73117C6.78216 2.24785 6.17221 1.93126 5.50316 1.81729C5.34698 1.79196 5.20135 1.89538 5.17391 2.04945C5.14648 2.20353 5.24778 2.35338 5.40396 2.3787Z" fill="#8F6DFF"/>
+														<path d="M9.98831 4.41121C9.80046 3.30949 9.28126 2.30697 8.48347 1.50918C7.68568 0.711384 6.68316 0.192184 5.58144 0.00434386C5.42737 -0.0230935 5.28174 0.0824349 5.2543 0.236506C5.22897 0.392688 5.33239 0.538318 5.48857 0.565755C6.4721 0.73249 7.36909 1.19893 8.08246 1.91019C8.79583 2.62356 9.26016 3.52055 9.42689 4.50408C9.45011 4.64337 9.57041 4.74046 9.7076 4.74046C9.72448 4.74046 9.73926 4.73835 9.75614 4.73624C9.91021 4.71302 10.0157 4.56528 9.98831 4.41121Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__massage">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M8.92578 0.602539H1.07422C0.481895 0.602539 0 1.08443 0 1.67676V6.83301C0 7.42533 0.481895 7.90723 1.07422 7.90723H3.60379C3.63467 7.90723 3.66402 7.92205 3.68236 7.94691L4.60527 9.19814C4.69775 9.32356 4.84016 9.39588 4.99598 9.3966H4.99832C5.15324 9.3966 5.29537 9.32566 5.38854 9.20174L6.33238 7.94619C6.35072 7.92178 6.37992 7.90721 6.41045 7.90721H8.92578C9.51811 7.90721 10 7.42531 10 6.83299V1.67674C10 1.08441 9.51811 0.602539 8.92578 0.602539ZM9.41406 6.83301C9.41406 6.87914 9.4075 6.92373 9.39549 6.96605L6.38562 4.32762L9.41406 1.81438V6.83301ZM8.92578 1.18848C9.0151 1.18848 9.09883 1.2127 9.17092 1.25475L5.31266 4.45662C5.13195 4.60658 4.86971 4.60658 4.689 4.45662L0.830059 1.25418C0.901934 1.21248 0.985313 1.18848 1.07422 1.18848H8.92578ZM0.604512 6.96605C0.5925 6.92373 0.585938 6.87912 0.585938 6.83301V1.81301L3.6152 4.32689L0.604512 6.96605ZM5.86404 7.5941L4.99898 8.74482L4.15391 7.59912C4.02562 7.42514 3.81994 7.32127 3.60377 7.32127H1.08814L4.07178 4.70582L4.3148 4.9075C4.51357 5.07246 4.75715 5.1549 5.00082 5.1549C5.24441 5.1549 5.48809 5.0724 5.68682 4.9075L5.92898 4.70652L8.91182 7.32127H6.41045C6.19676 7.32129 5.99248 7.42326 5.86404 7.5941Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__other">
+													<span></span>
+													<span></span>
+													<span></span>
+												</button>
+											</div>
+										</div>
+										<div class="specialists__item-hover">
+											<p class="specialists__name">
+												<span>
+													Иванов
+												</span>
+												Иван
+											</p>
+											<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+										</div>
+										<div class="specialists__box">
+											<span class="specialists__active"></span>
+											<img src="assets/images/account/specialists/none.svg" alt="specialists">
+										</div>
+									</div>
+								</div>
+								
+								<div class="specialists__item">
+									<div class="specialists__content">
+										<div class="specialists__item-before">
+											<div class="specialists__info">
+												<div class="specialists__avatar">
+													<span class="specialists__active"></span>
+													<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+												</div>
+												<div class="specialists__text">
+													<p class="specialists__name">
+														<span>Иван</span> Иванов
+													</p>
+													<span class="specialists__position">
+														Консультант
+													</span>
+													<span class="specialists__time">
+														Работает с 2012г
+													</span>
+												</div>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Задачи
+												</button>
+												<button class="specialists__btn">
+													Перерыв
+												</button>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Предупреждение
+												</button>
+												<button class="specialists__btn">
+													График
+												</button>
+											</div>
+											<div class="specialists__bottom">
+												<button class="specialists__camera">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M7.90271 6.19436C7.69799 5.98119 7.45105 5.86722 7.18934 5.86722C6.92974 5.86722 6.6807 5.97908 6.46753 6.19225L5.80059 6.85708C5.74571 6.82753 5.69084 6.80009 5.63807 6.77266C5.56209 6.73467 5.49034 6.69879 5.42913 6.6608C4.8044 6.26401 4.23666 5.74692 3.69213 5.07787C3.42831 4.7444 3.25102 4.46369 3.12228 4.17876C3.29534 4.02047 3.45575 3.85584 3.61193 3.69755C3.67103 3.63846 3.73012 3.57725 3.78922 3.51815C4.23244 3.07493 4.23244 2.50086 3.78922 2.05764L3.21303 1.48145C3.1476 1.41602 3.08007 1.34848 3.01675 1.28095C2.89011 1.15009 2.75715 1.01501 2.61996 0.888379C2.41524 0.685764 2.17041 0.578125 1.91292 0.578125C1.65543 0.578125 1.40639 0.685764 1.19533 0.888379C1.19322 0.89049 1.19322 0.89049 1.19111 0.8926L0.473514 1.61653C0.203361 1.88668 0.0492897 2.21593 0.0155206 2.59794C-0.035133 3.21423 0.146376 3.78831 0.285673 4.16399C0.627585 5.08631 1.13834 5.94109 1.90026 6.85708C2.82469 7.96091 3.93696 8.83257 5.20752 9.44675C5.69295 9.6768 6.34089 9.94907 7.06482 9.9955C7.10914 9.99761 7.15557 9.99972 7.19778 9.99972C7.68533 9.99972 8.09478 9.82454 8.41558 9.4763C8.41769 9.47208 8.42192 9.46997 8.42403 9.46575C8.53378 9.33278 8.66041 9.21248 8.79338 9.08373C8.88413 8.9972 8.97699 8.90645 9.06775 8.81147C9.2767 8.59408 9.38645 8.34081 9.38645 8.08121C9.38645 7.8195 9.27458 7.56834 9.06142 7.35728L7.90271 6.19436ZM8.6583 8.41679C8.65619 8.41679 8.65619 8.4189 8.6583 8.41679C8.57599 8.50544 8.49156 8.58564 8.40081 8.67428C8.26362 8.80514 8.12432 8.94233 7.99347 9.0964C7.7803 9.32434 7.52914 9.43198 7.1999 9.43198C7.16824 9.43198 7.13447 9.43198 7.10281 9.42987C6.47597 9.38977 5.89345 9.14494 5.45657 8.93599C4.26198 8.3577 3.21303 7.53668 2.34137 6.49617C1.62166 5.62873 1.14045 4.82671 0.821758 3.96559C0.625475 3.44006 0.553716 3.03061 0.585374 2.64438C0.60648 2.39744 0.701455 2.19271 0.876633 2.01754L1.59634 1.29783C1.69975 1.20074 1.8095 1.14798 1.91714 1.14798C2.05011 1.14798 2.15775 1.22818 2.22529 1.29572C2.2274 1.29783 2.22951 1.29994 2.23162 1.30205C2.36036 1.42235 2.48277 1.54688 2.61152 1.67984C2.67695 1.74738 2.74449 1.81492 2.81202 1.88457L3.38821 2.46076C3.61193 2.68448 3.61193 2.89131 3.38821 3.11503C3.327 3.17624 3.26791 3.23745 3.2067 3.29654C3.02941 3.47805 2.86057 3.6469 2.67695 3.81152C2.67273 3.81574 2.66851 3.81785 2.66639 3.82208C2.48489 4.00358 2.51865 4.18087 2.55664 4.30118C2.55876 4.30751 2.56087 4.31384 2.56298 4.32017C2.71283 4.68319 2.92388 5.0251 3.24469 5.43244L3.2468 5.43455C3.82932 6.15215 4.44349 6.71145 5.12099 7.1399C5.20752 7.19477 5.29616 7.23909 5.38059 7.2813C5.45657 7.31929 5.52833 7.35517 5.58953 7.39316C5.59797 7.39739 5.60642 7.40372 5.61486 7.40794C5.68662 7.44382 5.75416 7.4607 5.8238 7.4607C5.99898 7.4607 6.10873 7.35095 6.14461 7.31507L6.86643 6.59326C6.93818 6.5215 7.05216 6.43496 7.18512 6.43496C7.31598 6.43496 7.42362 6.51728 7.48904 6.58904C7.49115 6.59115 7.49115 6.59115 7.49326 6.59326L8.65619 7.75618C8.87358 7.97146 8.87358 8.19307 8.6583 8.41679Z" fill="#8F6DFF"/>
+														<path d="M5.40396 2.3787C5.95693 2.47157 6.45924 2.73328 6.86025 3.13429C7.26126 3.53529 7.52086 4.03761 7.61583 4.59058C7.63905 4.72987 7.75935 4.82696 7.89654 4.82696C7.91342 4.82696 7.92819 4.82485 7.94508 4.82274C8.10126 4.79741 8.20468 4.64967 8.17935 4.49349C8.06538 3.82444 7.7488 3.21449 7.26548 2.73117C6.78216 2.24785 6.17221 1.93126 5.50316 1.81729C5.34698 1.79196 5.20135 1.89538 5.17391 2.04945C5.14648 2.20353 5.24778 2.35338 5.40396 2.3787Z" fill="#8F6DFF"/>
+														<path d="M9.98831 4.41121C9.80046 3.30949 9.28126 2.30697 8.48347 1.50918C7.68568 0.711384 6.68316 0.192184 5.58144 0.00434386C5.42737 -0.0230935 5.28174 0.0824349 5.2543 0.236506C5.22897 0.392688 5.33239 0.538318 5.48857 0.565755C6.4721 0.73249 7.36909 1.19893 8.08246 1.91019C8.79583 2.62356 9.26016 3.52055 9.42689 4.50408C9.45011 4.64337 9.57041 4.74046 9.7076 4.74046C9.72448 4.74046 9.73926 4.73835 9.75614 4.73624C9.91021 4.71302 10.0157 4.56528 9.98831 4.41121Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__massage">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M8.92578 0.602539H1.07422C0.481895 0.602539 0 1.08443 0 1.67676V6.83301C0 7.42533 0.481895 7.90723 1.07422 7.90723H3.60379C3.63467 7.90723 3.66402 7.92205 3.68236 7.94691L4.60527 9.19814C4.69775 9.32356 4.84016 9.39588 4.99598 9.3966H4.99832C5.15324 9.3966 5.29537 9.32566 5.38854 9.20174L6.33238 7.94619C6.35072 7.92178 6.37992 7.90721 6.41045 7.90721H8.92578C9.51811 7.90721 10 7.42531 10 6.83299V1.67674C10 1.08441 9.51811 0.602539 8.92578 0.602539ZM9.41406 6.83301C9.41406 6.87914 9.4075 6.92373 9.39549 6.96605L6.38562 4.32762L9.41406 1.81438V6.83301ZM8.92578 1.18848C9.0151 1.18848 9.09883 1.2127 9.17092 1.25475L5.31266 4.45662C5.13195 4.60658 4.86971 4.60658 4.689 4.45662L0.830059 1.25418C0.901934 1.21248 0.985313 1.18848 1.07422 1.18848H8.92578ZM0.604512 6.96605C0.5925 6.92373 0.585938 6.87912 0.585938 6.83301V1.81301L3.6152 4.32689L0.604512 6.96605ZM5.86404 7.5941L4.99898 8.74482L4.15391 7.59912C4.02562 7.42514 3.81994 7.32127 3.60377 7.32127H1.08814L4.07178 4.70582L4.3148 4.9075C4.51357 5.07246 4.75715 5.1549 5.00082 5.1549C5.24441 5.1549 5.48809 5.0724 5.68682 4.9075L5.92898 4.70652L8.91182 7.32127H6.41045C6.19676 7.32129 5.99248 7.42326 5.86404 7.5941Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__other">
+													<span></span>
+													<span></span>
+													<span></span>
+												</button>
+											</div>
+										</div>
+										<div class="specialists__item-hover">
+											<p class="specialists__name">
+												<span>
+													Иванов
+												</span>
+												Иван
+											</p>
+											<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+										</div>
+										<div class="specialists__box">
+											<span class="specialists__active"></span>
+											<img src="assets/images/account/specialists/active.svg" alt="specialists">
+										</div>
+									</div>
+								</div>
+								
+								<div class="specialists__item specialists__none">
+									<div class="specialists__content">
+										<div class="specialists__item-before">
+											<div class="specialists__info">
+												<div class="specialists__avatar">
+													<span class="specialists__active"></span>
+													<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+												</div>
+												<div class="specialists__text">
+													<p class="specialists__name">
+														<span>Иван</span> Иванов
+													</p>
+													<span class="specialists__position">
+														Консультант
+													</span>
+													<span class="specialists__time">
+														Работает с 2012г
+													</span>
+												</div>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Задачи
+												</button>
+												<button class="specialists__btn">
+													Перерыв
+												</button>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Предупреждение
+												</button>
+												<button class="specialists__btn">
+													График
+												</button>
+											</div>
+											<div class="specialists__bottom">
+												<button class="specialists__camera">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M7.90271 6.19436C7.69799 5.98119 7.45105 5.86722 7.18934 5.86722C6.92974 5.86722 6.6807 5.97908 6.46753 6.19225L5.80059 6.85708C5.74571 6.82753 5.69084 6.80009 5.63807 6.77266C5.56209 6.73467 5.49034 6.69879 5.42913 6.6608C4.8044 6.26401 4.23666 5.74692 3.69213 5.07787C3.42831 4.7444 3.25102 4.46369 3.12228 4.17876C3.29534 4.02047 3.45575 3.85584 3.61193 3.69755C3.67103 3.63846 3.73012 3.57725 3.78922 3.51815C4.23244 3.07493 4.23244 2.50086 3.78922 2.05764L3.21303 1.48145C3.1476 1.41602 3.08007 1.34848 3.01675 1.28095C2.89011 1.15009 2.75715 1.01501 2.61996 0.888379C2.41524 0.685764 2.17041 0.578125 1.91292 0.578125C1.65543 0.578125 1.40639 0.685764 1.19533 0.888379C1.19322 0.89049 1.19322 0.89049 1.19111 0.8926L0.473514 1.61653C0.203361 1.88668 0.0492897 2.21593 0.0155206 2.59794C-0.035133 3.21423 0.146376 3.78831 0.285673 4.16399C0.627585 5.08631 1.13834 5.94109 1.90026 6.85708C2.82469 7.96091 3.93696 8.83257 5.20752 9.44675C5.69295 9.6768 6.34089 9.94907 7.06482 9.9955C7.10914 9.99761 7.15557 9.99972 7.19778 9.99972C7.68533 9.99972 8.09478 9.82454 8.41558 9.4763C8.41769 9.47208 8.42192 9.46997 8.42403 9.46575C8.53378 9.33278 8.66041 9.21248 8.79338 9.08373C8.88413 8.9972 8.97699 8.90645 9.06775 8.81147C9.2767 8.59408 9.38645 8.34081 9.38645 8.08121C9.38645 7.8195 9.27458 7.56834 9.06142 7.35728L7.90271 6.19436ZM8.6583 8.41679C8.65619 8.41679 8.65619 8.4189 8.6583 8.41679C8.57599 8.50544 8.49156 8.58564 8.40081 8.67428C8.26362 8.80514 8.12432 8.94233 7.99347 9.0964C7.7803 9.32434 7.52914 9.43198 7.1999 9.43198C7.16824 9.43198 7.13447 9.43198 7.10281 9.42987C6.47597 9.38977 5.89345 9.14494 5.45657 8.93599C4.26198 8.3577 3.21303 7.53668 2.34137 6.49617C1.62166 5.62873 1.14045 4.82671 0.821758 3.96559C0.625475 3.44006 0.553716 3.03061 0.585374 2.64438C0.60648 2.39744 0.701455 2.19271 0.876633 2.01754L1.59634 1.29783C1.69975 1.20074 1.8095 1.14798 1.91714 1.14798C2.05011 1.14798 2.15775 1.22818 2.22529 1.29572C2.2274 1.29783 2.22951 1.29994 2.23162 1.30205C2.36036 1.42235 2.48277 1.54688 2.61152 1.67984C2.67695 1.74738 2.74449 1.81492 2.81202 1.88457L3.38821 2.46076C3.61193 2.68448 3.61193 2.89131 3.38821 3.11503C3.327 3.17624 3.26791 3.23745 3.2067 3.29654C3.02941 3.47805 2.86057 3.6469 2.67695 3.81152C2.67273 3.81574 2.66851 3.81785 2.66639 3.82208C2.48489 4.00358 2.51865 4.18087 2.55664 4.30118C2.55876 4.30751 2.56087 4.31384 2.56298 4.32017C2.71283 4.68319 2.92388 5.0251 3.24469 5.43244L3.2468 5.43455C3.82932 6.15215 4.44349 6.71145 5.12099 7.1399C5.20752 7.19477 5.29616 7.23909 5.38059 7.2813C5.45657 7.31929 5.52833 7.35517 5.58953 7.39316C5.59797 7.39739 5.60642 7.40372 5.61486 7.40794C5.68662 7.44382 5.75416 7.4607 5.8238 7.4607C5.99898 7.4607 6.10873 7.35095 6.14461 7.31507L6.86643 6.59326C6.93818 6.5215 7.05216 6.43496 7.18512 6.43496C7.31598 6.43496 7.42362 6.51728 7.48904 6.58904C7.49115 6.59115 7.49115 6.59115 7.49326 6.59326L8.65619 7.75618C8.87358 7.97146 8.87358 8.19307 8.6583 8.41679Z" fill="#8F6DFF"/>
+														<path d="M5.40396 2.3787C5.95693 2.47157 6.45924 2.73328 6.86025 3.13429C7.26126 3.53529 7.52086 4.03761 7.61583 4.59058C7.63905 4.72987 7.75935 4.82696 7.89654 4.82696C7.91342 4.82696 7.92819 4.82485 7.94508 4.82274C8.10126 4.79741 8.20468 4.64967 8.17935 4.49349C8.06538 3.82444 7.7488 3.21449 7.26548 2.73117C6.78216 2.24785 6.17221 1.93126 5.50316 1.81729C5.34698 1.79196 5.20135 1.89538 5.17391 2.04945C5.14648 2.20353 5.24778 2.35338 5.40396 2.3787Z" fill="#8F6DFF"/>
+														<path d="M9.98831 4.41121C9.80046 3.30949 9.28126 2.30697 8.48347 1.50918C7.68568 0.711384 6.68316 0.192184 5.58144 0.00434386C5.42737 -0.0230935 5.28174 0.0824349 5.2543 0.236506C5.22897 0.392688 5.33239 0.538318 5.48857 0.565755C6.4721 0.73249 7.36909 1.19893 8.08246 1.91019C8.79583 2.62356 9.26016 3.52055 9.42689 4.50408C9.45011 4.64337 9.57041 4.74046 9.7076 4.74046C9.72448 4.74046 9.73926 4.73835 9.75614 4.73624C9.91021 4.71302 10.0157 4.56528 9.98831 4.41121Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__massage">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M8.92578 0.602539H1.07422C0.481895 0.602539 0 1.08443 0 1.67676V6.83301C0 7.42533 0.481895 7.90723 1.07422 7.90723H3.60379C3.63467 7.90723 3.66402 7.92205 3.68236 7.94691L4.60527 9.19814C4.69775 9.32356 4.84016 9.39588 4.99598 9.3966H4.99832C5.15324 9.3966 5.29537 9.32566 5.38854 9.20174L6.33238 7.94619C6.35072 7.92178 6.37992 7.90721 6.41045 7.90721H8.92578C9.51811 7.90721 10 7.42531 10 6.83299V1.67674C10 1.08441 9.51811 0.602539 8.92578 0.602539ZM9.41406 6.83301C9.41406 6.87914 9.4075 6.92373 9.39549 6.96605L6.38562 4.32762L9.41406 1.81438V6.83301ZM8.92578 1.18848C9.0151 1.18848 9.09883 1.2127 9.17092 1.25475L5.31266 4.45662C5.13195 4.60658 4.86971 4.60658 4.689 4.45662L0.830059 1.25418C0.901934 1.21248 0.985313 1.18848 1.07422 1.18848H8.92578ZM0.604512 6.96605C0.5925 6.92373 0.585938 6.87912 0.585938 6.83301V1.81301L3.6152 4.32689L0.604512 6.96605ZM5.86404 7.5941L4.99898 8.74482L4.15391 7.59912C4.02562 7.42514 3.81994 7.32127 3.60377 7.32127H1.08814L4.07178 4.70582L4.3148 4.9075C4.51357 5.07246 4.75715 5.1549 5.00082 5.1549C5.24441 5.1549 5.48809 5.0724 5.68682 4.9075L5.92898 4.70652L8.91182 7.32127H6.41045C6.19676 7.32129 5.99248 7.42326 5.86404 7.5941Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__other">
+													<span></span>
+													<span></span>
+													<span></span>
+												</button>
+											</div>
+										</div>
+										<div class="specialists__item-hover">
+											<p class="specialists__name">
+												<span>
+													Иванов
+												</span>
+												Иван
+											</p>
+											<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+										</div>
+										<div class="specialists__box">
+											<span class="specialists__active"></span>
+											<img src="assets/images/account/specialists/none.svg" alt="specialists">
+										</div>
+									</div>
+								</div>
+								
+								<div class="specialists__item specialists__wait">
+									<div class="specialists__content">
+										<div class="specialists__item-before">
+											<div class="specialists__info">
+												<div class="specialists__avatar">
+													<span class="specialists__active"></span>
+													<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+												</div>
+												<div class="specialists__text">
+													<p class="specialists__name">
+														<span>Иван</span> Иванов
+													</p>
+													<span class="specialists__position">
+														Консультант
+													</span>
+													<span class="specialists__time">
+														Работает с 2012г
+													</span>
+												</div>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Задачи
+												</button>
+												<button class="specialists__btn">
+													Перерыв
+												</button>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Предупреждение
+												</button>
+												<button class="specialists__btn">
+													График
+												</button>
+											</div>
+											<div class="specialists__bottom">
+												<button class="specialists__camera">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M7.90271 6.19436C7.69799 5.98119 7.45105 5.86722 7.18934 5.86722C6.92974 5.86722 6.6807 5.97908 6.46753 6.19225L5.80059 6.85708C5.74571 6.82753 5.69084 6.80009 5.63807 6.77266C5.56209 6.73467 5.49034 6.69879 5.42913 6.6608C4.8044 6.26401 4.23666 5.74692 3.69213 5.07787C3.42831 4.7444 3.25102 4.46369 3.12228 4.17876C3.29534 4.02047 3.45575 3.85584 3.61193 3.69755C3.67103 3.63846 3.73012 3.57725 3.78922 3.51815C4.23244 3.07493 4.23244 2.50086 3.78922 2.05764L3.21303 1.48145C3.1476 1.41602 3.08007 1.34848 3.01675 1.28095C2.89011 1.15009 2.75715 1.01501 2.61996 0.888379C2.41524 0.685764 2.17041 0.578125 1.91292 0.578125C1.65543 0.578125 1.40639 0.685764 1.19533 0.888379C1.19322 0.89049 1.19322 0.89049 1.19111 0.8926L0.473514 1.61653C0.203361 1.88668 0.0492897 2.21593 0.0155206 2.59794C-0.035133 3.21423 0.146376 3.78831 0.285673 4.16399C0.627585 5.08631 1.13834 5.94109 1.90026 6.85708C2.82469 7.96091 3.93696 8.83257 5.20752 9.44675C5.69295 9.6768 6.34089 9.94907 7.06482 9.9955C7.10914 9.99761 7.15557 9.99972 7.19778 9.99972C7.68533 9.99972 8.09478 9.82454 8.41558 9.4763C8.41769 9.47208 8.42192 9.46997 8.42403 9.46575C8.53378 9.33278 8.66041 9.21248 8.79338 9.08373C8.88413 8.9972 8.97699 8.90645 9.06775 8.81147C9.2767 8.59408 9.38645 8.34081 9.38645 8.08121C9.38645 7.8195 9.27458 7.56834 9.06142 7.35728L7.90271 6.19436ZM8.6583 8.41679C8.65619 8.41679 8.65619 8.4189 8.6583 8.41679C8.57599 8.50544 8.49156 8.58564 8.40081 8.67428C8.26362 8.80514 8.12432 8.94233 7.99347 9.0964C7.7803 9.32434 7.52914 9.43198 7.1999 9.43198C7.16824 9.43198 7.13447 9.43198 7.10281 9.42987C6.47597 9.38977 5.89345 9.14494 5.45657 8.93599C4.26198 8.3577 3.21303 7.53668 2.34137 6.49617C1.62166 5.62873 1.14045 4.82671 0.821758 3.96559C0.625475 3.44006 0.553716 3.03061 0.585374 2.64438C0.60648 2.39744 0.701455 2.19271 0.876633 2.01754L1.59634 1.29783C1.69975 1.20074 1.8095 1.14798 1.91714 1.14798C2.05011 1.14798 2.15775 1.22818 2.22529 1.29572C2.2274 1.29783 2.22951 1.29994 2.23162 1.30205C2.36036 1.42235 2.48277 1.54688 2.61152 1.67984C2.67695 1.74738 2.74449 1.81492 2.81202 1.88457L3.38821 2.46076C3.61193 2.68448 3.61193 2.89131 3.38821 3.11503C3.327 3.17624 3.26791 3.23745 3.2067 3.29654C3.02941 3.47805 2.86057 3.6469 2.67695 3.81152C2.67273 3.81574 2.66851 3.81785 2.66639 3.82208C2.48489 4.00358 2.51865 4.18087 2.55664 4.30118C2.55876 4.30751 2.56087 4.31384 2.56298 4.32017C2.71283 4.68319 2.92388 5.0251 3.24469 5.43244L3.2468 5.43455C3.82932 6.15215 4.44349 6.71145 5.12099 7.1399C5.20752 7.19477 5.29616 7.23909 5.38059 7.2813C5.45657 7.31929 5.52833 7.35517 5.58953 7.39316C5.59797 7.39739 5.60642 7.40372 5.61486 7.40794C5.68662 7.44382 5.75416 7.4607 5.8238 7.4607C5.99898 7.4607 6.10873 7.35095 6.14461 7.31507L6.86643 6.59326C6.93818 6.5215 7.05216 6.43496 7.18512 6.43496C7.31598 6.43496 7.42362 6.51728 7.48904 6.58904C7.49115 6.59115 7.49115 6.59115 7.49326 6.59326L8.65619 7.75618C8.87358 7.97146 8.87358 8.19307 8.6583 8.41679Z" fill="#8F6DFF"/>
+														<path d="M5.40396 2.3787C5.95693 2.47157 6.45924 2.73328 6.86025 3.13429C7.26126 3.53529 7.52086 4.03761 7.61583 4.59058C7.63905 4.72987 7.75935 4.82696 7.89654 4.82696C7.91342 4.82696 7.92819 4.82485 7.94508 4.82274C8.10126 4.79741 8.20468 4.64967 8.17935 4.49349C8.06538 3.82444 7.7488 3.21449 7.26548 2.73117C6.78216 2.24785 6.17221 1.93126 5.50316 1.81729C5.34698 1.79196 5.20135 1.89538 5.17391 2.04945C5.14648 2.20353 5.24778 2.35338 5.40396 2.3787Z" fill="#8F6DFF"/>
+														<path d="M9.98831 4.41121C9.80046 3.30949 9.28126 2.30697 8.48347 1.50918C7.68568 0.711384 6.68316 0.192184 5.58144 0.00434386C5.42737 -0.0230935 5.28174 0.0824349 5.2543 0.236506C5.22897 0.392688 5.33239 0.538318 5.48857 0.565755C6.4721 0.73249 7.36909 1.19893 8.08246 1.91019C8.79583 2.62356 9.26016 3.52055 9.42689 4.50408C9.45011 4.64337 9.57041 4.74046 9.7076 4.74046C9.72448 4.74046 9.73926 4.73835 9.75614 4.73624C9.91021 4.71302 10.0157 4.56528 9.98831 4.41121Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__massage">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M8.92578 0.602539H1.07422C0.481895 0.602539 0 1.08443 0 1.67676V6.83301C0 7.42533 0.481895 7.90723 1.07422 7.90723H3.60379C3.63467 7.90723 3.66402 7.92205 3.68236 7.94691L4.60527 9.19814C4.69775 9.32356 4.84016 9.39588 4.99598 9.3966H4.99832C5.15324 9.3966 5.29537 9.32566 5.38854 9.20174L6.33238 7.94619C6.35072 7.92178 6.37992 7.90721 6.41045 7.90721H8.92578C9.51811 7.90721 10 7.42531 10 6.83299V1.67674C10 1.08441 9.51811 0.602539 8.92578 0.602539ZM9.41406 6.83301C9.41406 6.87914 9.4075 6.92373 9.39549 6.96605L6.38562 4.32762L9.41406 1.81438V6.83301ZM8.92578 1.18848C9.0151 1.18848 9.09883 1.2127 9.17092 1.25475L5.31266 4.45662C5.13195 4.60658 4.86971 4.60658 4.689 4.45662L0.830059 1.25418C0.901934 1.21248 0.985313 1.18848 1.07422 1.18848H8.92578ZM0.604512 6.96605C0.5925 6.92373 0.585938 6.87912 0.585938 6.83301V1.81301L3.6152 4.32689L0.604512 6.96605ZM5.86404 7.5941L4.99898 8.74482L4.15391 7.59912C4.02562 7.42514 3.81994 7.32127 3.60377 7.32127H1.08814L4.07178 4.70582L4.3148 4.9075C4.51357 5.07246 4.75715 5.1549 5.00082 5.1549C5.24441 5.1549 5.48809 5.0724 5.68682 4.9075L5.92898 4.70652L8.91182 7.32127H6.41045C6.19676 7.32129 5.99248 7.42326 5.86404 7.5941Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__other">
+													<span></span>
+													<span></span>
+													<span></span>
+												</button>
+											</div>
+										</div>
+										<div class="specialists__item-hover">
+											<p class="specialists__name">
+												<span>
+													Иванов
+												</span>
+												Иван
+											</p>
+											<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+										</div>
+										<div class="specialists__box">
+											<span class="specialists__active"></span>
+											<img src="assets/images/account/specialists/none.svg" alt="specialists">
+										</div>
+									</div>
+								</div>
+								
+								<div class="specialists__item">
+									<div class="specialists__content">
+										<div class="specialists__item-before">
+											<div class="specialists__info">
+												<div class="specialists__avatar">
+													<span class="specialists__active"></span>
+													<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+												</div>
+												<div class="specialists__text">
+													<p class="specialists__name">
+														<span>Иван</span> Иванов
+													</p>
+													<span class="specialists__position">
+														Консультант
+													</span>
+													<span class="specialists__time">
+														Работает с 2012г
+													</span>
+												</div>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Задачи
+												</button>
+												<button class="specialists__btn">
+													Перерыв
+												</button>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Предупреждение
+												</button>
+												<button class="specialists__btn">
+													График
+												</button>
+											</div>
+											<div class="specialists__bottom">
+												<button class="specialists__camera">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M7.90271 6.19436C7.69799 5.98119 7.45105 5.86722 7.18934 5.86722C6.92974 5.86722 6.6807 5.97908 6.46753 6.19225L5.80059 6.85708C5.74571 6.82753 5.69084 6.80009 5.63807 6.77266C5.56209 6.73467 5.49034 6.69879 5.42913 6.6608C4.8044 6.26401 4.23666 5.74692 3.69213 5.07787C3.42831 4.7444 3.25102 4.46369 3.12228 4.17876C3.29534 4.02047 3.45575 3.85584 3.61193 3.69755C3.67103 3.63846 3.73012 3.57725 3.78922 3.51815C4.23244 3.07493 4.23244 2.50086 3.78922 2.05764L3.21303 1.48145C3.1476 1.41602 3.08007 1.34848 3.01675 1.28095C2.89011 1.15009 2.75715 1.01501 2.61996 0.888379C2.41524 0.685764 2.17041 0.578125 1.91292 0.578125C1.65543 0.578125 1.40639 0.685764 1.19533 0.888379C1.19322 0.89049 1.19322 0.89049 1.19111 0.8926L0.473514 1.61653C0.203361 1.88668 0.0492897 2.21593 0.0155206 2.59794C-0.035133 3.21423 0.146376 3.78831 0.285673 4.16399C0.627585 5.08631 1.13834 5.94109 1.90026 6.85708C2.82469 7.96091 3.93696 8.83257 5.20752 9.44675C5.69295 9.6768 6.34089 9.94907 7.06482 9.9955C7.10914 9.99761 7.15557 9.99972 7.19778 9.99972C7.68533 9.99972 8.09478 9.82454 8.41558 9.4763C8.41769 9.47208 8.42192 9.46997 8.42403 9.46575C8.53378 9.33278 8.66041 9.21248 8.79338 9.08373C8.88413 8.9972 8.97699 8.90645 9.06775 8.81147C9.2767 8.59408 9.38645 8.34081 9.38645 8.08121C9.38645 7.8195 9.27458 7.56834 9.06142 7.35728L7.90271 6.19436ZM8.6583 8.41679C8.65619 8.41679 8.65619 8.4189 8.6583 8.41679C8.57599 8.50544 8.49156 8.58564 8.40081 8.67428C8.26362 8.80514 8.12432 8.94233 7.99347 9.0964C7.7803 9.32434 7.52914 9.43198 7.1999 9.43198C7.16824 9.43198 7.13447 9.43198 7.10281 9.42987C6.47597 9.38977 5.89345 9.14494 5.45657 8.93599C4.26198 8.3577 3.21303 7.53668 2.34137 6.49617C1.62166 5.62873 1.14045 4.82671 0.821758 3.96559C0.625475 3.44006 0.553716 3.03061 0.585374 2.64438C0.60648 2.39744 0.701455 2.19271 0.876633 2.01754L1.59634 1.29783C1.69975 1.20074 1.8095 1.14798 1.91714 1.14798C2.05011 1.14798 2.15775 1.22818 2.22529 1.29572C2.2274 1.29783 2.22951 1.29994 2.23162 1.30205C2.36036 1.42235 2.48277 1.54688 2.61152 1.67984C2.67695 1.74738 2.74449 1.81492 2.81202 1.88457L3.38821 2.46076C3.61193 2.68448 3.61193 2.89131 3.38821 3.11503C3.327 3.17624 3.26791 3.23745 3.2067 3.29654C3.02941 3.47805 2.86057 3.6469 2.67695 3.81152C2.67273 3.81574 2.66851 3.81785 2.66639 3.82208C2.48489 4.00358 2.51865 4.18087 2.55664 4.30118C2.55876 4.30751 2.56087 4.31384 2.56298 4.32017C2.71283 4.68319 2.92388 5.0251 3.24469 5.43244L3.2468 5.43455C3.82932 6.15215 4.44349 6.71145 5.12099 7.1399C5.20752 7.19477 5.29616 7.23909 5.38059 7.2813C5.45657 7.31929 5.52833 7.35517 5.58953 7.39316C5.59797 7.39739 5.60642 7.40372 5.61486 7.40794C5.68662 7.44382 5.75416 7.4607 5.8238 7.4607C5.99898 7.4607 6.10873 7.35095 6.14461 7.31507L6.86643 6.59326C6.93818 6.5215 7.05216 6.43496 7.18512 6.43496C7.31598 6.43496 7.42362 6.51728 7.48904 6.58904C7.49115 6.59115 7.49115 6.59115 7.49326 6.59326L8.65619 7.75618C8.87358 7.97146 8.87358 8.19307 8.6583 8.41679Z" fill="#8F6DFF"/>
+														<path d="M5.40396 2.3787C5.95693 2.47157 6.45924 2.73328 6.86025 3.13429C7.26126 3.53529 7.52086 4.03761 7.61583 4.59058C7.63905 4.72987 7.75935 4.82696 7.89654 4.82696C7.91342 4.82696 7.92819 4.82485 7.94508 4.82274C8.10126 4.79741 8.20468 4.64967 8.17935 4.49349C8.06538 3.82444 7.7488 3.21449 7.26548 2.73117C6.78216 2.24785 6.17221 1.93126 5.50316 1.81729C5.34698 1.79196 5.20135 1.89538 5.17391 2.04945C5.14648 2.20353 5.24778 2.35338 5.40396 2.3787Z" fill="#8F6DFF"/>
+														<path d="M9.98831 4.41121C9.80046 3.30949 9.28126 2.30697 8.48347 1.50918C7.68568 0.711384 6.68316 0.192184 5.58144 0.00434386C5.42737 -0.0230935 5.28174 0.0824349 5.2543 0.236506C5.22897 0.392688 5.33239 0.538318 5.48857 0.565755C6.4721 0.73249 7.36909 1.19893 8.08246 1.91019C8.79583 2.62356 9.26016 3.52055 9.42689 4.50408C9.45011 4.64337 9.57041 4.74046 9.7076 4.74046C9.72448 4.74046 9.73926 4.73835 9.75614 4.73624C9.91021 4.71302 10.0157 4.56528 9.98831 4.41121Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__massage">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M8.92578 0.602539H1.07422C0.481895 0.602539 0 1.08443 0 1.67676V6.83301C0 7.42533 0.481895 7.90723 1.07422 7.90723H3.60379C3.63467 7.90723 3.66402 7.92205 3.68236 7.94691L4.60527 9.19814C4.69775 9.32356 4.84016 9.39588 4.99598 9.3966H4.99832C5.15324 9.3966 5.29537 9.32566 5.38854 9.20174L6.33238 7.94619C6.35072 7.92178 6.37992 7.90721 6.41045 7.90721H8.92578C9.51811 7.90721 10 7.42531 10 6.83299V1.67674C10 1.08441 9.51811 0.602539 8.92578 0.602539ZM9.41406 6.83301C9.41406 6.87914 9.4075 6.92373 9.39549 6.96605L6.38562 4.32762L9.41406 1.81438V6.83301ZM8.92578 1.18848C9.0151 1.18848 9.09883 1.2127 9.17092 1.25475L5.31266 4.45662C5.13195 4.60658 4.86971 4.60658 4.689 4.45662L0.830059 1.25418C0.901934 1.21248 0.985313 1.18848 1.07422 1.18848H8.92578ZM0.604512 6.96605C0.5925 6.92373 0.585938 6.87912 0.585938 6.83301V1.81301L3.6152 4.32689L0.604512 6.96605ZM5.86404 7.5941L4.99898 8.74482L4.15391 7.59912C4.02562 7.42514 3.81994 7.32127 3.60377 7.32127H1.08814L4.07178 4.70582L4.3148 4.9075C4.51357 5.07246 4.75715 5.1549 5.00082 5.1549C5.24441 5.1549 5.48809 5.0724 5.68682 4.9075L5.92898 4.70652L8.91182 7.32127H6.41045C6.19676 7.32129 5.99248 7.42326 5.86404 7.5941Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__other">
+													<span></span>
+													<span></span>
+													<span></span>
+												</button>
+											</div>
+										</div>
+										<div class="specialists__item-hover">
+											<p class="specialists__name">
+												<span>
+													Иванов
+												</span>
+												Иван
+											</p>
+											<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+										</div>
+										<div class="specialists__box">
+											<span class="specialists__active"></span>
+											<img src="assets/images/account/specialists/active.svg" alt="specialists">
+										</div>
+									</div>
+								</div>
+								
+								<div class="specialists__item specialists__none">
+									<div class="specialists__content">
+										<div class="specialists__item-before">
+											<div class="specialists__info">
+												<div class="specialists__avatar">
+													<span class="specialists__active"></span>
+													<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+												</div>
+												<div class="specialists__text">
+													<p class="specialists__name">
+														<span>Иван</span> Иванов
+													</p>
+													<span class="specialists__position">
+														Консультант
+													</span>
+													<span class="specialists__time">
+														Работает с 2012г
+													</span>
+												</div>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Задачи
+												</button>
+												<button class="specialists__btn">
+													Перерыв
+												</button>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Предупреждение
+												</button>
+												<button class="specialists__btn">
+													График
+												</button>
+											</div>
+											<div class="specialists__bottom">
+												<button class="specialists__camera">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M7.90271 6.19436C7.69799 5.98119 7.45105 5.86722 7.18934 5.86722C6.92974 5.86722 6.6807 5.97908 6.46753 6.19225L5.80059 6.85708C5.74571 6.82753 5.69084 6.80009 5.63807 6.77266C5.56209 6.73467 5.49034 6.69879 5.42913 6.6608C4.8044 6.26401 4.23666 5.74692 3.69213 5.07787C3.42831 4.7444 3.25102 4.46369 3.12228 4.17876C3.29534 4.02047 3.45575 3.85584 3.61193 3.69755C3.67103 3.63846 3.73012 3.57725 3.78922 3.51815C4.23244 3.07493 4.23244 2.50086 3.78922 2.05764L3.21303 1.48145C3.1476 1.41602 3.08007 1.34848 3.01675 1.28095C2.89011 1.15009 2.75715 1.01501 2.61996 0.888379C2.41524 0.685764 2.17041 0.578125 1.91292 0.578125C1.65543 0.578125 1.40639 0.685764 1.19533 0.888379C1.19322 0.89049 1.19322 0.89049 1.19111 0.8926L0.473514 1.61653C0.203361 1.88668 0.0492897 2.21593 0.0155206 2.59794C-0.035133 3.21423 0.146376 3.78831 0.285673 4.16399C0.627585 5.08631 1.13834 5.94109 1.90026 6.85708C2.82469 7.96091 3.93696 8.83257 5.20752 9.44675C5.69295 9.6768 6.34089 9.94907 7.06482 9.9955C7.10914 9.99761 7.15557 9.99972 7.19778 9.99972C7.68533 9.99972 8.09478 9.82454 8.41558 9.4763C8.41769 9.47208 8.42192 9.46997 8.42403 9.46575C8.53378 9.33278 8.66041 9.21248 8.79338 9.08373C8.88413 8.9972 8.97699 8.90645 9.06775 8.81147C9.2767 8.59408 9.38645 8.34081 9.38645 8.08121C9.38645 7.8195 9.27458 7.56834 9.06142 7.35728L7.90271 6.19436ZM8.6583 8.41679C8.65619 8.41679 8.65619 8.4189 8.6583 8.41679C8.57599 8.50544 8.49156 8.58564 8.40081 8.67428C8.26362 8.80514 8.12432 8.94233 7.99347 9.0964C7.7803 9.32434 7.52914 9.43198 7.1999 9.43198C7.16824 9.43198 7.13447 9.43198 7.10281 9.42987C6.47597 9.38977 5.89345 9.14494 5.45657 8.93599C4.26198 8.3577 3.21303 7.53668 2.34137 6.49617C1.62166 5.62873 1.14045 4.82671 0.821758 3.96559C0.625475 3.44006 0.553716 3.03061 0.585374 2.64438C0.60648 2.39744 0.701455 2.19271 0.876633 2.01754L1.59634 1.29783C1.69975 1.20074 1.8095 1.14798 1.91714 1.14798C2.05011 1.14798 2.15775 1.22818 2.22529 1.29572C2.2274 1.29783 2.22951 1.29994 2.23162 1.30205C2.36036 1.42235 2.48277 1.54688 2.61152 1.67984C2.67695 1.74738 2.74449 1.81492 2.81202 1.88457L3.38821 2.46076C3.61193 2.68448 3.61193 2.89131 3.38821 3.11503C3.327 3.17624 3.26791 3.23745 3.2067 3.29654C3.02941 3.47805 2.86057 3.6469 2.67695 3.81152C2.67273 3.81574 2.66851 3.81785 2.66639 3.82208C2.48489 4.00358 2.51865 4.18087 2.55664 4.30118C2.55876 4.30751 2.56087 4.31384 2.56298 4.32017C2.71283 4.68319 2.92388 5.0251 3.24469 5.43244L3.2468 5.43455C3.82932 6.15215 4.44349 6.71145 5.12099 7.1399C5.20752 7.19477 5.29616 7.23909 5.38059 7.2813C5.45657 7.31929 5.52833 7.35517 5.58953 7.39316C5.59797 7.39739 5.60642 7.40372 5.61486 7.40794C5.68662 7.44382 5.75416 7.4607 5.8238 7.4607C5.99898 7.4607 6.10873 7.35095 6.14461 7.31507L6.86643 6.59326C6.93818 6.5215 7.05216 6.43496 7.18512 6.43496C7.31598 6.43496 7.42362 6.51728 7.48904 6.58904C7.49115 6.59115 7.49115 6.59115 7.49326 6.59326L8.65619 7.75618C8.87358 7.97146 8.87358 8.19307 8.6583 8.41679Z" fill="#8F6DFF"/>
+														<path d="M5.40396 2.3787C5.95693 2.47157 6.45924 2.73328 6.86025 3.13429C7.26126 3.53529 7.52086 4.03761 7.61583 4.59058C7.63905 4.72987 7.75935 4.82696 7.89654 4.82696C7.91342 4.82696 7.92819 4.82485 7.94508 4.82274C8.10126 4.79741 8.20468 4.64967 8.17935 4.49349C8.06538 3.82444 7.7488 3.21449 7.26548 2.73117C6.78216 2.24785 6.17221 1.93126 5.50316 1.81729C5.34698 1.79196 5.20135 1.89538 5.17391 2.04945C5.14648 2.20353 5.24778 2.35338 5.40396 2.3787Z" fill="#8F6DFF"/>
+														<path d="M9.98831 4.41121C9.80046 3.30949 9.28126 2.30697 8.48347 1.50918C7.68568 0.711384 6.68316 0.192184 5.58144 0.00434386C5.42737 -0.0230935 5.28174 0.0824349 5.2543 0.236506C5.22897 0.392688 5.33239 0.538318 5.48857 0.565755C6.4721 0.73249 7.36909 1.19893 8.08246 1.91019C8.79583 2.62356 9.26016 3.52055 9.42689 4.50408C9.45011 4.64337 9.57041 4.74046 9.7076 4.74046C9.72448 4.74046 9.73926 4.73835 9.75614 4.73624C9.91021 4.71302 10.0157 4.56528 9.98831 4.41121Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__massage">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M8.92578 0.602539H1.07422C0.481895 0.602539 0 1.08443 0 1.67676V6.83301C0 7.42533 0.481895 7.90723 1.07422 7.90723H3.60379C3.63467 7.90723 3.66402 7.92205 3.68236 7.94691L4.60527 9.19814C4.69775 9.32356 4.84016 9.39588 4.99598 9.3966H4.99832C5.15324 9.3966 5.29537 9.32566 5.38854 9.20174L6.33238 7.94619C6.35072 7.92178 6.37992 7.90721 6.41045 7.90721H8.92578C9.51811 7.90721 10 7.42531 10 6.83299V1.67674C10 1.08441 9.51811 0.602539 8.92578 0.602539ZM9.41406 6.83301C9.41406 6.87914 9.4075 6.92373 9.39549 6.96605L6.38562 4.32762L9.41406 1.81438V6.83301ZM8.92578 1.18848C9.0151 1.18848 9.09883 1.2127 9.17092 1.25475L5.31266 4.45662C5.13195 4.60658 4.86971 4.60658 4.689 4.45662L0.830059 1.25418C0.901934 1.21248 0.985313 1.18848 1.07422 1.18848H8.92578ZM0.604512 6.96605C0.5925 6.92373 0.585938 6.87912 0.585938 6.83301V1.81301L3.6152 4.32689L0.604512 6.96605ZM5.86404 7.5941L4.99898 8.74482L4.15391 7.59912C4.02562 7.42514 3.81994 7.32127 3.60377 7.32127H1.08814L4.07178 4.70582L4.3148 4.9075C4.51357 5.07246 4.75715 5.1549 5.00082 5.1549C5.24441 5.1549 5.48809 5.0724 5.68682 4.9075L5.92898 4.70652L8.91182 7.32127H6.41045C6.19676 7.32129 5.99248 7.42326 5.86404 7.5941Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__other">
+													<span></span>
+													<span></span>
+													<span></span>
+												</button>
+											</div>
+										</div>
+										<div class="specialists__item-hover">
+											<p class="specialists__name">
+												<span>
+													Иванов
+												</span>
+												Иван
+											</p>
+											<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+										</div>
+										<div class="specialists__box">
+											<span class="specialists__active"></span>
+											<img src="assets/images/account/specialists/none.svg" alt="specialists">
+										</div>
+									</div>
+								</div>
+								
+								<div class="specialists__item specialists__wait">
+									<div class="specialists__content">
+										<div class="specialists__item-before">
+											<div class="specialists__info">
+												<div class="specialists__avatar">
+													<span class="specialists__active"></span>
+													<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+												</div>
+												<div class="specialists__text">
+													<p class="specialists__name">
+														<span>Иван</span> Иванов
+													</p>
+													<span class="specialists__position">
+														Консультант
+													</span>
+													<span class="specialists__time">
+														Работает с 2012г
+													</span>
+												</div>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Задачи
+												</button>
+												<button class="specialists__btn">
+													Перерыв
+												</button>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Предупреждение
+												</button>
+												<button class="specialists__btn">
+													График
+												</button>
+											</div>
+											<div class="specialists__bottom">
+												<button class="specialists__camera">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M7.90271 6.19436C7.69799 5.98119 7.45105 5.86722 7.18934 5.86722C6.92974 5.86722 6.6807 5.97908 6.46753 6.19225L5.80059 6.85708C5.74571 6.82753 5.69084 6.80009 5.63807 6.77266C5.56209 6.73467 5.49034 6.69879 5.42913 6.6608C4.8044 6.26401 4.23666 5.74692 3.69213 5.07787C3.42831 4.7444 3.25102 4.46369 3.12228 4.17876C3.29534 4.02047 3.45575 3.85584 3.61193 3.69755C3.67103 3.63846 3.73012 3.57725 3.78922 3.51815C4.23244 3.07493 4.23244 2.50086 3.78922 2.05764L3.21303 1.48145C3.1476 1.41602 3.08007 1.34848 3.01675 1.28095C2.89011 1.15009 2.75715 1.01501 2.61996 0.888379C2.41524 0.685764 2.17041 0.578125 1.91292 0.578125C1.65543 0.578125 1.40639 0.685764 1.19533 0.888379C1.19322 0.89049 1.19322 0.89049 1.19111 0.8926L0.473514 1.61653C0.203361 1.88668 0.0492897 2.21593 0.0155206 2.59794C-0.035133 3.21423 0.146376 3.78831 0.285673 4.16399C0.627585 5.08631 1.13834 5.94109 1.90026 6.85708C2.82469 7.96091 3.93696 8.83257 5.20752 9.44675C5.69295 9.6768 6.34089 9.94907 7.06482 9.9955C7.10914 9.99761 7.15557 9.99972 7.19778 9.99972C7.68533 9.99972 8.09478 9.82454 8.41558 9.4763C8.41769 9.47208 8.42192 9.46997 8.42403 9.46575C8.53378 9.33278 8.66041 9.21248 8.79338 9.08373C8.88413 8.9972 8.97699 8.90645 9.06775 8.81147C9.2767 8.59408 9.38645 8.34081 9.38645 8.08121C9.38645 7.8195 9.27458 7.56834 9.06142 7.35728L7.90271 6.19436ZM8.6583 8.41679C8.65619 8.41679 8.65619 8.4189 8.6583 8.41679C8.57599 8.50544 8.49156 8.58564 8.40081 8.67428C8.26362 8.80514 8.12432 8.94233 7.99347 9.0964C7.7803 9.32434 7.52914 9.43198 7.1999 9.43198C7.16824 9.43198 7.13447 9.43198 7.10281 9.42987C6.47597 9.38977 5.89345 9.14494 5.45657 8.93599C4.26198 8.3577 3.21303 7.53668 2.34137 6.49617C1.62166 5.62873 1.14045 4.82671 0.821758 3.96559C0.625475 3.44006 0.553716 3.03061 0.585374 2.64438C0.60648 2.39744 0.701455 2.19271 0.876633 2.01754L1.59634 1.29783C1.69975 1.20074 1.8095 1.14798 1.91714 1.14798C2.05011 1.14798 2.15775 1.22818 2.22529 1.29572C2.2274 1.29783 2.22951 1.29994 2.23162 1.30205C2.36036 1.42235 2.48277 1.54688 2.61152 1.67984C2.67695 1.74738 2.74449 1.81492 2.81202 1.88457L3.38821 2.46076C3.61193 2.68448 3.61193 2.89131 3.38821 3.11503C3.327 3.17624 3.26791 3.23745 3.2067 3.29654C3.02941 3.47805 2.86057 3.6469 2.67695 3.81152C2.67273 3.81574 2.66851 3.81785 2.66639 3.82208C2.48489 4.00358 2.51865 4.18087 2.55664 4.30118C2.55876 4.30751 2.56087 4.31384 2.56298 4.32017C2.71283 4.68319 2.92388 5.0251 3.24469 5.43244L3.2468 5.43455C3.82932 6.15215 4.44349 6.71145 5.12099 7.1399C5.20752 7.19477 5.29616 7.23909 5.38059 7.2813C5.45657 7.31929 5.52833 7.35517 5.58953 7.39316C5.59797 7.39739 5.60642 7.40372 5.61486 7.40794C5.68662 7.44382 5.75416 7.4607 5.8238 7.4607C5.99898 7.4607 6.10873 7.35095 6.14461 7.31507L6.86643 6.59326C6.93818 6.5215 7.05216 6.43496 7.18512 6.43496C7.31598 6.43496 7.42362 6.51728 7.48904 6.58904C7.49115 6.59115 7.49115 6.59115 7.49326 6.59326L8.65619 7.75618C8.87358 7.97146 8.87358 8.19307 8.6583 8.41679Z" fill="#8F6DFF"/>
+														<path d="M5.40396 2.3787C5.95693 2.47157 6.45924 2.73328 6.86025 3.13429C7.26126 3.53529 7.52086 4.03761 7.61583 4.59058C7.63905 4.72987 7.75935 4.82696 7.89654 4.82696C7.91342 4.82696 7.92819 4.82485 7.94508 4.82274C8.10126 4.79741 8.20468 4.64967 8.17935 4.49349C8.06538 3.82444 7.7488 3.21449 7.26548 2.73117C6.78216 2.24785 6.17221 1.93126 5.50316 1.81729C5.34698 1.79196 5.20135 1.89538 5.17391 2.04945C5.14648 2.20353 5.24778 2.35338 5.40396 2.3787Z" fill="#8F6DFF"/>
+														<path d="M9.98831 4.41121C9.80046 3.30949 9.28126 2.30697 8.48347 1.50918C7.68568 0.711384 6.68316 0.192184 5.58144 0.00434386C5.42737 -0.0230935 5.28174 0.0824349 5.2543 0.236506C5.22897 0.392688 5.33239 0.538318 5.48857 0.565755C6.4721 0.73249 7.36909 1.19893 8.08246 1.91019C8.79583 2.62356 9.26016 3.52055 9.42689 4.50408C9.45011 4.64337 9.57041 4.74046 9.7076 4.74046C9.72448 4.74046 9.73926 4.73835 9.75614 4.73624C9.91021 4.71302 10.0157 4.56528 9.98831 4.41121Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__massage">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M8.92578 0.602539H1.07422C0.481895 0.602539 0 1.08443 0 1.67676V6.83301C0 7.42533 0.481895 7.90723 1.07422 7.90723H3.60379C3.63467 7.90723 3.66402 7.92205 3.68236 7.94691L4.60527 9.19814C4.69775 9.32356 4.84016 9.39588 4.99598 9.3966H4.99832C5.15324 9.3966 5.29537 9.32566 5.38854 9.20174L6.33238 7.94619C6.35072 7.92178 6.37992 7.90721 6.41045 7.90721H8.92578C9.51811 7.90721 10 7.42531 10 6.83299V1.67674C10 1.08441 9.51811 0.602539 8.92578 0.602539ZM9.41406 6.83301C9.41406 6.87914 9.4075 6.92373 9.39549 6.96605L6.38562 4.32762L9.41406 1.81438V6.83301ZM8.92578 1.18848C9.0151 1.18848 9.09883 1.2127 9.17092 1.25475L5.31266 4.45662C5.13195 4.60658 4.86971 4.60658 4.689 4.45662L0.830059 1.25418C0.901934 1.21248 0.985313 1.18848 1.07422 1.18848H8.92578ZM0.604512 6.96605C0.5925 6.92373 0.585938 6.87912 0.585938 6.83301V1.81301L3.6152 4.32689L0.604512 6.96605ZM5.86404 7.5941L4.99898 8.74482L4.15391 7.59912C4.02562 7.42514 3.81994 7.32127 3.60377 7.32127H1.08814L4.07178 4.70582L4.3148 4.9075C4.51357 5.07246 4.75715 5.1549 5.00082 5.1549C5.24441 5.1549 5.48809 5.0724 5.68682 4.9075L5.92898 4.70652L8.91182 7.32127H6.41045C6.19676 7.32129 5.99248 7.42326 5.86404 7.5941Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__other">
+													<span></span>
+													<span></span>
+													<span></span>
+												</button>
+											</div>
+										</div>
+										<div class="specialists__item-hover">
+											<p class="specialists__name">
+												<span>
+													Иванов
+												</span>
+												Иван
+											</p>
+											<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+										</div>
+										<div class="specialists__box">
+											<span class="specialists__active"></span>
+											<img src="assets/images/account/specialists/none.svg" alt="specialists">
+										</div>
+									</div>
+								</div>
+								
+								<div class="specialists__item">
+									<div class="specialists__content">
+										<div class="specialists__item-before">
+											<div class="specialists__info">
+												<div class="specialists__avatar">
+													<span class="specialists__active"></span>
+													<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+												</div>
+												<div class="specialists__text">
+													<p class="specialists__name">
+														<span>Иван</span> Иванов
+													</p>
+													<span class="specialists__position">
+														Консультант
+													</span>
+													<span class="specialists__time">
+														Работает с 2012г
+													</span>
+												</div>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Задачи
+												</button>
+												<button class="specialists__btn">
+													Перерыв
+												</button>
+											</div>
+											<div class="specialists__button">
+												<button class="specialists__btn specialist__left">
+													Предупреждение
+												</button>
+												<button class="specialists__btn">
+													График
+												</button>
+											</div>
+											<div class="specialists__bottom">
+												<button class="specialists__camera">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M7.90271 6.19436C7.69799 5.98119 7.45105 5.86722 7.18934 5.86722C6.92974 5.86722 6.6807 5.97908 6.46753 6.19225L5.80059 6.85708C5.74571 6.82753 5.69084 6.80009 5.63807 6.77266C5.56209 6.73467 5.49034 6.69879 5.42913 6.6608C4.8044 6.26401 4.23666 5.74692 3.69213 5.07787C3.42831 4.7444 3.25102 4.46369 3.12228 4.17876C3.29534 4.02047 3.45575 3.85584 3.61193 3.69755C3.67103 3.63846 3.73012 3.57725 3.78922 3.51815C4.23244 3.07493 4.23244 2.50086 3.78922 2.05764L3.21303 1.48145C3.1476 1.41602 3.08007 1.34848 3.01675 1.28095C2.89011 1.15009 2.75715 1.01501 2.61996 0.888379C2.41524 0.685764 2.17041 0.578125 1.91292 0.578125C1.65543 0.578125 1.40639 0.685764 1.19533 0.888379C1.19322 0.89049 1.19322 0.89049 1.19111 0.8926L0.473514 1.61653C0.203361 1.88668 0.0492897 2.21593 0.0155206 2.59794C-0.035133 3.21423 0.146376 3.78831 0.285673 4.16399C0.627585 5.08631 1.13834 5.94109 1.90026 6.85708C2.82469 7.96091 3.93696 8.83257 5.20752 9.44675C5.69295 9.6768 6.34089 9.94907 7.06482 9.9955C7.10914 9.99761 7.15557 9.99972 7.19778 9.99972C7.68533 9.99972 8.09478 9.82454 8.41558 9.4763C8.41769 9.47208 8.42192 9.46997 8.42403 9.46575C8.53378 9.33278 8.66041 9.21248 8.79338 9.08373C8.88413 8.9972 8.97699 8.90645 9.06775 8.81147C9.2767 8.59408 9.38645 8.34081 9.38645 8.08121C9.38645 7.8195 9.27458 7.56834 9.06142 7.35728L7.90271 6.19436ZM8.6583 8.41679C8.65619 8.41679 8.65619 8.4189 8.6583 8.41679C8.57599 8.50544 8.49156 8.58564 8.40081 8.67428C8.26362 8.80514 8.12432 8.94233 7.99347 9.0964C7.7803 9.32434 7.52914 9.43198 7.1999 9.43198C7.16824 9.43198 7.13447 9.43198 7.10281 9.42987C6.47597 9.38977 5.89345 9.14494 5.45657 8.93599C4.26198 8.3577 3.21303 7.53668 2.34137 6.49617C1.62166 5.62873 1.14045 4.82671 0.821758 3.96559C0.625475 3.44006 0.553716 3.03061 0.585374 2.64438C0.60648 2.39744 0.701455 2.19271 0.876633 2.01754L1.59634 1.29783C1.69975 1.20074 1.8095 1.14798 1.91714 1.14798C2.05011 1.14798 2.15775 1.22818 2.22529 1.29572C2.2274 1.29783 2.22951 1.29994 2.23162 1.30205C2.36036 1.42235 2.48277 1.54688 2.61152 1.67984C2.67695 1.74738 2.74449 1.81492 2.81202 1.88457L3.38821 2.46076C3.61193 2.68448 3.61193 2.89131 3.38821 3.11503C3.327 3.17624 3.26791 3.23745 3.2067 3.29654C3.02941 3.47805 2.86057 3.6469 2.67695 3.81152C2.67273 3.81574 2.66851 3.81785 2.66639 3.82208C2.48489 4.00358 2.51865 4.18087 2.55664 4.30118C2.55876 4.30751 2.56087 4.31384 2.56298 4.32017C2.71283 4.68319 2.92388 5.0251 3.24469 5.43244L3.2468 5.43455C3.82932 6.15215 4.44349 6.71145 5.12099 7.1399C5.20752 7.19477 5.29616 7.23909 5.38059 7.2813C5.45657 7.31929 5.52833 7.35517 5.58953 7.39316C5.59797 7.39739 5.60642 7.40372 5.61486 7.40794C5.68662 7.44382 5.75416 7.4607 5.8238 7.4607C5.99898 7.4607 6.10873 7.35095 6.14461 7.31507L6.86643 6.59326C6.93818 6.5215 7.05216 6.43496 7.18512 6.43496C7.31598 6.43496 7.42362 6.51728 7.48904 6.58904C7.49115 6.59115 7.49115 6.59115 7.49326 6.59326L8.65619 7.75618C8.87358 7.97146 8.87358 8.19307 8.6583 8.41679Z" fill="#8F6DFF"/>
+														<path d="M5.40396 2.3787C5.95693 2.47157 6.45924 2.73328 6.86025 3.13429C7.26126 3.53529 7.52086 4.03761 7.61583 4.59058C7.63905 4.72987 7.75935 4.82696 7.89654 4.82696C7.91342 4.82696 7.92819 4.82485 7.94508 4.82274C8.10126 4.79741 8.20468 4.64967 8.17935 4.49349C8.06538 3.82444 7.7488 3.21449 7.26548 2.73117C6.78216 2.24785 6.17221 1.93126 5.50316 1.81729C5.34698 1.79196 5.20135 1.89538 5.17391 2.04945C5.14648 2.20353 5.24778 2.35338 5.40396 2.3787Z" fill="#8F6DFF"/>
+														<path d="M9.98831 4.41121C9.80046 3.30949 9.28126 2.30697 8.48347 1.50918C7.68568 0.711384 6.68316 0.192184 5.58144 0.00434386C5.42737 -0.0230935 5.28174 0.0824349 5.2543 0.236506C5.22897 0.392688 5.33239 0.538318 5.48857 0.565755C6.4721 0.73249 7.36909 1.19893 8.08246 1.91019C8.79583 2.62356 9.26016 3.52055 9.42689 4.50408C9.45011 4.64337 9.57041 4.74046 9.7076 4.74046C9.72448 4.74046 9.73926 4.73835 9.75614 4.73624C9.91021 4.71302 10.0157 4.56528 9.98831 4.41121Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__massage">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M8.92578 0.602539H1.07422C0.481895 0.602539 0 1.08443 0 1.67676V6.83301C0 7.42533 0.481895 7.90723 1.07422 7.90723H3.60379C3.63467 7.90723 3.66402 7.92205 3.68236 7.94691L4.60527 9.19814C4.69775 9.32356 4.84016 9.39588 4.99598 9.3966H4.99832C5.15324 9.3966 5.29537 9.32566 5.38854 9.20174L6.33238 7.94619C6.35072 7.92178 6.37992 7.90721 6.41045 7.90721H8.92578C9.51811 7.90721 10 7.42531 10 6.83299V1.67674C10 1.08441 9.51811 0.602539 8.92578 0.602539ZM9.41406 6.83301C9.41406 6.87914 9.4075 6.92373 9.39549 6.96605L6.38562 4.32762L9.41406 1.81438V6.83301ZM8.92578 1.18848C9.0151 1.18848 9.09883 1.2127 9.17092 1.25475L5.31266 4.45662C5.13195 4.60658 4.86971 4.60658 4.689 4.45662L0.830059 1.25418C0.901934 1.21248 0.985313 1.18848 1.07422 1.18848H8.92578ZM0.604512 6.96605C0.5925 6.92373 0.585938 6.87912 0.585938 6.83301V1.81301L3.6152 4.32689L0.604512 6.96605ZM5.86404 7.5941L4.99898 8.74482L4.15391 7.59912C4.02562 7.42514 3.81994 7.32127 3.60377 7.32127H1.08814L4.07178 4.70582L4.3148 4.9075C4.51357 5.07246 4.75715 5.1549 5.00082 5.1549C5.24441 5.1549 5.48809 5.0724 5.68682 4.9075L5.92898 4.70652L8.91182 7.32127H6.41045C6.19676 7.32129 5.99248 7.42326 5.86404 7.5941Z" fill="#8F6DFF"/>
+													</svg>
+												</button>
+												<button class="specialists__other">
+													<span></span>
+													<span></span>
+													<span></span>
+												</button>
+											</div>
+										</div>
+										<div class="specialists__item-hover">
+											<p class="specialists__name">
+												<span>
+													Иванов
+												</span>
+												Иван
+											</p>
+											<img src="assets/images/account/specialists/avatar.png" alt="avatar">
+										</div>
+										<div class="specialists__box">
+											<span class="specialists__active"></span>
+											<img src="assets/images/account/specialists/active.svg" alt="specialists">
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal modal-margin__mobile modal__specialists" id="modal2">
+			<a class="modal__close" data-modal="#modal2"><img src="assets/images/svg/close-grey.svg" alt="Закрыть"></a>
+			
+			<div class="madal__content madal__content--height modal__specialists-content">
+				<div class="specialists-add__head">
+					<h4 class="specialists-add__title">
+						Сотрудники
+					</h4>
+				</div>
+				
+				<div class="specialists-add__content scroll__custom">
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+					<div class="specialists-add__item">
+						<div class="specialists-item__active">
+							<span>
+								<img src="assets/images/svg/check.svg" alt="img">
+							</span>
+						</div>
+						<div class="specialists-add__avatar">
+							<img src="assets/images/account/specialists/avatar.png" alt="Avatar">
+						</div>
+						<span class="specialists-add__name">
+							Иван Иванов
+						</span>
+						<span class="specialists-add__stance">
+							Директор
+						</span>
+						<span class="specialists-add__info">
+							В компании с 20.10.2020г
+						</span>
+						<span class="specialists-add__info">
+							Обучение пройдено
+						</span>
+					</div>
+				</div>				
+			</div>	
+		</div>
+	</main>
+
+	<script src="assets/js/plugins/jquery/libs.min.js"></script>
+	<script src="assets/js/plugins/dragscroll/dragscroll.js"></script>
+	<script src="assets/js/plugins/maskedinput/jquery.maskedinput.min.js"></script>
+	<script src="assets/js/plugins/swiper/swiper.js"></script>
+	<script src="assets/js/app.js"></script>
+
+</body>
+</html>

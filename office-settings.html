@@ -1,0 +1,1887 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Sttox</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0, user-scalable=no, user-scalable=0"/>
+	<link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+
+	<header class="headeracc">
+		<div class="headeracc__wrapper">	
+			<div class="headeracc__item">
+				<div class="headeracc__menu">
+					<button class="header__toggle header__toggle-account" type="button">
+						<span class="header__toggle-item">Menu</span>
+					</button>
+				</div>
+				<div class="header__logo">
+					<a href="index.html">
+						<img src="assets/images/section-1/title.png" alt="Логотип">
+						<span>/ Удалённый офис</span>
+					</a>
+				</div>
+			</div>
+			<div class="headeracc__item">
+				<div class="header__translate-box">
+					<ul class="header__translate" data-location="ru">
+						<li class="header__translate-button active" data-lang="ru">
+							<span>
+								Rus
+							</span>
+						</li>
+						<li class="header__translate-button" data-lang="en">
+							<span>
+								Eng
+							</span>
+						</li>
+					</ul>
+				</div>
+				<a class="headeracc__massage headeracc__count notification-open" data-count="5">
+					<svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M10.9001 11.3372H2.15641H0.822631C-0.362893 11.3372 0.0816416 10.5814 0.0816416 10.5814C0.0816416 10.5814 0.378093 9.82558 1.26725 9.67442C2.15641 9.52326 2.15644 8.76744 2.15644 8.76744C2.15644 8.76744 1.93009 4.04159 2.15644 3.62791C2.38279 3.21422 2.74923 1.51163 6.00959 1.51163C9.26994 1.51163 9.72547 3.25581 9.86274 3.62791C10 4 9.86274 8.76744 9.86274 8.76744C9.86274 8.76744 9.86274 9.52326 10.7519 9.67442C11.6411 9.82558 11.9375 10.5814 11.9375 10.5814C11.9375 10.5814 12.3821 11.3372 10.9001 11.3372Z" fill="#8F6DFF"/>
+						<path d="M7.93612 11.7907H4.08297C4.08297 11.7907 4.67574 13 6.00953 13C7.34331 13 7.93612 11.7907 7.93612 11.7907Z" fill="#8F6DFF"/>
+						<path d="M7.49152 1.2093C6.3096 0.980857 5.68615 0.999738 4.52756 1.2093C4.52756 1.2093 4.67576 0 6.00954 0C7.34332 0 7.49152 1.2093 7.49152 1.2093Z" fill="#8F6DFF"/>
+					</svg>
+				</a>
+				<div class="headeracc__avatar">
+					<a href="account-profile-new.html">
+						<div class="headeracc__count" data-count="3">
+							<span class="headeracc__active"></span>
+							<img src="assets/images/account/user/avatar.png" alt="avatar">
+						</div>
+						<p>
+							Иван <span>Иванов</span>
+						</p>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="notification">
+			<ul class="notification__list scroll__custom">
+				<li class="notification__list-item">
+					<div class="headeracc__avatar notification__icon">
+						<span class="headeracc__active"></span>
+						<img src="assets/images/account/user/avatar.png" alt="avatar">
+					</div>
+					<p class="notification__text">
+						Сотрудник <span>Иван Иванов</span> прислал Вам отчёт
+					</p>
+					<span class="notification__time">Сегодня в 13:33</span>
+				</li>
+				<li class="notification__list-item">
+					<div class="notification__icon">
+						<img src="assets/images/account/notification/notification.svg" alt="icon">
+					</div>
+					<p class="notification__text">
+						Намоминание о задаче “Разработать дизайн-макет интернет магазина”
+					</p>
+					<span class="notification__time">Сегодня в 13:33</span>
+				</li>
+				<li class="notification__list-item">
+					<div class="notification__icon">
+						<img src="assets/images/account/notification/message.svg" alt="icon">
+					</div>
+					<p class="notification__text">
+						<span>Иван Иванов</span> прислал личное сообщение
+					</p>
+					<span class="notification__time">Вчера в 13:33</span>
+				</li>
+			</ul>
+			<div class="notification__buttons">
+				<button class="notification__btn">
+					Очистить
+				</button>
+				<a href="" class="notification__btn notification__btn--full">
+					<span>
+						Все уведомления
+					</span>
+					<svg width="10" height="15" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M2 2L9 8.5L2 15" stroke="white" stroke-width="3"/>
+						<path d="M2 2L9 8.5L2 15" stroke="#8F6DFF" stroke-width="3"/>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</header>
+	<main class="page page--account">
+
+		<div class="account__panel-mobile">
+			<ul class="account__panel-list">
+				<li>
+					<a href="">
+						<span class="account__panel-count" data-count="5">
+							<img src="assets/images/account/icons/panelmenu-1.svg" alt="Icons">
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span>
+							<img src="assets/images/account/icons/panelmenu-2.svg" alt="Icons">
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span>
+							<img src="assets/images/account/icons/panelmenu-3.svg" alt="Icons">
+						</span>
+					</a>
+				</li>
+				<li>
+					<a class="active" href="">
+						<span>
+							<img src="assets/images/account/icons/panelmenu-4.svg" alt="Icons">
+						</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="account__page">
+			<aside class="account__sidebar">
+				<ul class="account__menu">
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="office-statistics-1.1.html">
+							<img src="assets/images/account/icons/menu-1.svg" alt="Icons">
+							<span>
+								Компания
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="account-profile-new.html">
+							<img src="assets/images/account/icons/menu-2.svg" alt="Icons">
+							<span>
+								Профиль
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link account__menu-count" data-count="5" href="messenger.html">
+							<img src="assets/images/account/icons/menu-3.svg" alt="Icons">
+							<span>
+								Сообщения
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link account__menu-link--drop" href="office-department-notes.html">
+							<img src="assets/images/account/icons/menu-4.svg" alt="Icons">
+							<span>
+								Инструменты
+							</span>
+							<span class="account__menu-link--arrow">
+								<svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1 1L6 6.5L0.999998 12" stroke="white" stroke-width="2"></path>
+									<path d="M1 1L6 6.5L0.999998 12" stroke="#1F2D44" stroke-width="2"></path>
+								</svg>
+							</span>
+						</a>
+						<ul class="account__menu account__menu--dropdown dropdown-list">
+							<li class="dropdown-list__item mobile-content">
+								<a href="" class="mobile-content__back">
+									<span class="mobile-content__arrow">
+										<svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M7 12L2 6.5L7 1" stroke="white" stroke-width="2"></path>
+											<path d="M7 12L2 6.5L7 1" stroke="#8F6DFF" stroke-width="2"></path>
+										</svg>
+									</span>
+									Меню
+								</a>
+								<h3 class="mobile-content__title">
+									Инструменты
+								</h3>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-department-notes.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-1.svg" alt="Icons">
+									<span>
+										Заметки
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-department-task-chain1.2.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-2.svg" alt="Icons">
+									<span>
+										Задачи
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-projects.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-3.svg" alt="Icons">
+									<span>
+										Проекты
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-add-links1.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-4.svg" alt="Icons">
+									<span>
+										Ссылки
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-meetings-list.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-5.svg" alt="Icons">
+									<span>
+										Совещания
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-department-control.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-6.svg" alt="Icons">
+									<span>
+										Контроль
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-checklist.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-13.svg" alt="Icons">
+									<span>
+										Чек-листы
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-reports.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-14.svg" alt="Icons">
+									<span>
+										Отчёты
+									</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link account__menu-link--drop" href="">
+							<img src="assets/images/account/icons/menu-5.svg" alt="Icons">
+							<span>
+								Сотрудники
+							</span>
+							<span class="account__menu-link--arrow">
+								<svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1 1L6 6.5L0.999998 12" stroke="white" stroke-width="2"></path>
+									<path d="M1 1L6 6.5L0.999998 12" stroke="#1F2D44" stroke-width="2"></path>
+								</svg>
+							</span>
+						</a>
+						<ul class="account__menu account__menu--dropdown dropdown-list">
+							<li class="dropdown-list__item mobile-content">
+								<a href="" class="mobile-content__back">
+									<span class="mobile-content__arrow">
+										<svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M7 12L2 6.5L7 1" stroke="white" stroke-width="2"></path>
+											<path d="M7 12L2 6.5L7 1" stroke="#8F6DFF" stroke-width="2"></path>
+										</svg>
+									</span>
+									Меню
+								</a>
+								<h3 class="mobile-content__title">
+									Сотрудники
+								</h3>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-vacancy-creature-list.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-7.svg" alt="Icons">
+									<span>
+										Вакансии
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-department-schedule-list.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-8.svg" alt="Icons">
+									<span>
+										Графики
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-department-colleagues.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-9.svg" alt="Icons">
+									<span>
+										Коллеги
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-staff.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-10.svg" alt="Icons">
+									<span>
+										Все сотрудники
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-training.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-11.svg" alt="Icons">
+									<span>
+										Обучения
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="achieve.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-12.svg" alt="Icons">
+									<span>
+										Достижения
+									</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="office-workplace.html">
+							<img src="assets/images/account/icons/menu-6.svg" alt="Icons">
+							<span>
+								Рабочее место
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="">
+							<img src="assets/images/account/icons/menu-7.svg" alt="Icons">
+							<span>
+								Найти работника
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="storage.html">
+							<img src="assets/images/account/icons/menu-8.svg" alt="Icons">
+							<span>
+								Sttox диск
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="">
+							<img src="assets/images/account/icons/menu-9.svg" alt="Icons">
+							<span>
+								Статистика
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="office-settings.html">
+							<img src="assets/images/account/icons/menu-10.svg" alt="Icons">
+							<span>
+								Настройки
+							</span>
+						</a>
+					</li>
+				</ul>
+
+				<div class="account__sidebar-logout">
+					<a href="index.html" class="logout__btn">
+						<img src="assets/images/account/icons/5.png" alt="logout">
+						<span>
+							Выйти
+						</span>
+					</a>
+				</div>
+			</aside>
+			
+			<div class="account__content">
+				<div class="account__head">
+					<div class="account__crumbs">
+						<a href="">
+							Настройки
+						</a>
+					</div>
+					<div class="account__buttons">
+						<button class="account__btn">
+							По умолчанию
+						</button>
+						<button class="account__btn">
+							Сохранить
+						</button>
+					</div>
+				</div>
+
+				<div class="account__head-mobile head-mobile">
+					<div class="head-mobile__item">
+						<div class="head-mobile__link">
+							<a class="head-mobile__prev" href="">
+								<img src="assets/images/account/icons/arrow.svg" alt="prev">
+							</a>
+							<button class="header__toggle header__toggle-account" type="button">
+								<span class="header__toggle-item">Menu</span>
+							</button>
+							<h3 class="head-mobile__title">
+								Настройки
+							</h3>
+						</div>
+					</div>
+					<div class="head-mobile__item">
+						<button class="head-mobile__btn">
+							Сохранить
+						</button>
+					</div>
+				</div>
+
+				<div class="department">
+					<div class="department-task main-overflow">
+						<div class="setting-tabs">
+							<div class="tabs__wrapper tabs__wrapper--setting">
+								<div class="tabs__content-box" id="one" style="display: block;">
+									<div class="setting__wrapper">
+										<div class="setting__head">
+											<h3 class="setting__head-title">
+												Настройки отдела
+											</h3>
+										</div>
+										<div class="setting scroll__custom">
+											<div class="setting__option">
+												<ul class="setting__option-list">
+													<li class="setting__option-list__item">
+														<button class="setting__option-btn">
+															Наименование офиса
+														</button>
+														<div class="dropdown dropdown__resume dropdown__index setting__option-dropdown">
+															<button class="dropdown__button dropdown__button-setting">
+																<span>
+																	Выберите отдел
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-setting">
+																<li class="dropdown__list-item dropdown__item-setting" data-value="Полная">Отдел 1</li>
+																<li class="dropdown__list-item dropdown__item-setting" data-value="Отдел 2">Отдел 2</li>
+																<li class="dropdown__list-item dropdown__item-setting" data-value="Отдел 3">Отдел 3</li>
+																<li class="dropdown__list-item dropdown__item-setting" data-value="Отдел 4">Отдел 4</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</li>
+													<li class="setting__option-list__item">
+														<button class="setting__option-btn">
+															Наименование офиса
+														</button>
+														<div class="dropdown dropdown__resume dropdown__index setting__option-dropdown">
+															<button class="dropdown__button dropdown__button-setting">
+																<span>
+																	Выберите отдел
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-setting">
+																<li class="dropdown__list-item dropdown__item-setting" data-value="Полная">Отдел 1</li>
+																<li class="dropdown__list-item dropdown__item-setting" data-value="Отдел 2">Отдел 2</li>
+																<li class="dropdown__list-item dropdown__item-setting" data-value="Отдел 3">Отдел 3</li>
+																<li class="dropdown__list-item dropdown__item-setting" data-value="Отдел 4">Отдел 4</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</li>
+													<li class="setting__option-list__item">
+														<button class="setting__option-btn">
+															Наименование офиса
+														</button>
+														<div class="dropdown dropdown__resume dropdown__index setting__option-dropdown">
+															<button class="dropdown__button dropdown__button-setting">
+																<span>
+																	Выберите отдел
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-setting">
+																<li class="dropdown__list-item dropdown__item-setting" data-value="Полная">Отдел 1</li>
+																<li class="dropdown__list-item dropdown__item-setting" data-value="Отдел 2">Отдел 2</li>
+																<li class="dropdown__list-item dropdown__item-setting" data-value="Отдел 3">Отдел 3</li>
+																<li class="dropdown__list-item dropdown__item-setting" data-value="Отдел 4">Отдел 4</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</li>
+												</ul>
+											</div>
+											<div class="setting__content">
+												<div class="projects__box">
+													<label class="registration__label">
+														<span>
+															Наименование отдела
+														</span>
+														<input class="registration__input" name="name" type="text" placeholder="">
+													</label>
+
+													<label class="form__checkbox">
+														<input type="checkbox" name="trip" required="" checked="">
+														<span>
+															<svg width="25" height="18" viewBox="0 0 25 18" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M23 2L10 15.5L2 7.5" stroke-width="3"></path>
+															</svg>
+														</span> Уведомления Отдела “наименование”
+													</label>
+												</div>
+												<div class="setting__content-item">
+													<h4 class="setting__content-title">
+														Боковая панель
+													</h4>
+
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 1
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 2
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 3
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 4
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 5
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tabs__content-box" id="two">
+									<div class="setting__wrapper">
+										<div class="setting__head">
+											<h3 class="setting__head-title">
+												Настройки компании
+											</h3>
+										</div>
+										<div class="setting scroll__custom">
+											<div class="setting__content">
+												<div class="projects__box">
+													<label class="registration__label">
+														<span>
+															Наименование компании
+														</span>
+														<input class="registration__input" name="name" type="text" placeholder="">
+													</label>
+
+													<div class="projects-create__group">
+														<div class="office-link-preview">
+															<img src="assets/images/account/links/default.png" alt="preview">
+														</div>
+														<div class="office-link__add">
+															<div class="link__add-icon">
+																<div class="file-select">
+																	<div class="file-select-name" id="nofile">
+																		<svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<circle cx="9.5" cy="8" r="3.9" stroke="#828282" stroke-width="1.2"></circle>
+																			<path d="M15 11.5V2.5H12.5L12 1H8L7.5 2.5H1V11.5H6H7.5" stroke="#828282" stroke-width="1.2"></path>
+																			<path d="M15 11.5H12H11.5" stroke="#828282" stroke-width="1.2"></path>
+																			<path d="M15 11.5H15.5" stroke="#828282" stroke-width="1.2"></path>
+																			<rect x="3" y="1.5" width="2" height="1" rx="0.5" fill="#828282"></rect>
+																		</svg>
+																		Добавить иконку
+																	</div> 
+																	<input type="file" name="choosefile" id="choosefile">
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="resume__box-main">
+													<div class="resume__box-dropdown">
+														<span class="dropdown__resume-info">
+															Сфера деятельности
+														</span>
+														<div class="dropdown dropdown__index dropdown__resume">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Сфера деятельности
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Онлайн - сервис">Онлайн - сервис</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Онлайн - сервис">Онлайн - сервис</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Онлайн - сервис">Онлайн - сервис</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Онлайн - сервис">Онлайн - сервис</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+
+													<label class="registration__label">
+														<span>
+															Адрес компании
+														</span>
+														<input class="registration__input" name="adress" type="text" placeholder="">
+													</label>
+												</div>
+												<div class="setting__content-item">
+													<h4 class="setting__content-title">
+														Боковая панель
+													</h4>
+
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 1
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 2
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 3
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 4
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 5
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tabs__content-box" id="three">
+									<div class="setting__wrapper">
+										<div class="setting__head">
+											<h3 class="setting__head-title">
+												Настройки офиса
+											</h3>
+										</div>
+										<div class="setting scroll__custom">
+											<div class="setting__content">
+												<div class="setting__content-item">
+													<h4 class="setting__content-title setting__content-title--m0">
+														Офис “наименование”
+													</h4>
+													<div class="projects__box">
+														<label class="registration__label">
+															<span>
+																Наименование отдела
+															</span>
+															<input class="registration__input" name="name" type="text" placeholder="">
+														</label>
+
+														<label class="form__checkbox">
+															<input type="checkbox" name="trip" required="" checked="">
+															<span>
+																<svg width="25" height="18" viewBox="0 0 25 18" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M23 2L10 15.5L2 7.5" stroke-width="3"></path>
+																</svg>
+															</span> Уведомления Отдела “наименование”
+														</label>
+													</div>
+												</div>
+												<div class="setting__content-item">
+													<h4 class="setting__content-title">
+														Боковая панель
+													</h4>
+
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 1
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 2
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 3
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 4
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 5
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+												</div>
+												<div class="setting__content-item">
+													<h4 class="setting__content-title setting__content-title--m0">
+														Офис “наименование”
+													</h4>
+													<div class="projects__box">
+														<label class="registration__label">
+															<span>
+																Наименование отдела
+															</span>
+															<input class="registration__input" name="name" type="text" placeholder="">
+														</label>
+
+														<label class="form__checkbox">
+															<input type="checkbox" name="trip" required="" checked="">
+															<span>
+																<svg width="25" height="18" viewBox="0 0 25 18" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M23 2L10 15.5L2 7.5" stroke-width="3"></path>
+																</svg>
+															</span> Уведомления Отдела “наименование”
+														</label>
+													</div>
+												</div>
+												<div class="setting__content-item">
+													<h4 class="setting__content-title">
+														Боковая панель
+													</h4>
+
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 1
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 2
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 3
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 4
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Статистика 5
+														</div>
+														<div class="dropdown dropdown__resume settings__option--index">
+															<button class="dropdown__button dropdown__button-resume">
+																<span>
+																	Выберите инструмент статистики
+																</span>
+																<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+																</svg>
+															</button>
+															<ul class="dropdown__list dropdown__list-resume">
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент">Инструмент</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-1">Инструмент-1</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-2">Инструмент-2</li>
+																<li class="dropdown__list-item dropdown__item-resume" data-value="Инструмент-3">Инструмент-3</li>
+															</ul>
+															<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tabs__content-box" id="four">
+									<div class="setting__wrapper">
+										<div class="setting__head">
+											<h3 class="setting__head-title">
+												Персонализация
+											</h3>
+										</div>
+										<div class="setting scroll__custom">
+											<div class="setting__content">
+												<div class="setting__customize">
+													<div class="setting__customize-head">
+														<span>
+															Выберите дополнительный цвет интерфейса
+														</span>
+														<label class="form__checkbox">
+															<input type="checkbox" name="colordefault" required="" checked="">
+															<span>
+																<svg width="25" height="18" viewBox="0 0 25 18" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M23 2L10 15.5L2 7.5" stroke-width="3"></path>
+																</svg>
+															</span> По умолчанию
+														</label>
+													</div>
+													<div class="setting__customize-body">
+														<ul class="setting__customize-list">
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#E76565">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #E76565;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#E76565">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #E76565;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#FF6DB3">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #FF6DB3;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#8F6DFF">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #8F6DFF;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#4A72FF">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #4A72FF;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#44C7FF">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #44C7FF;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#2DFFCD">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #2DFFCD;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#9EFF71">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #9EFF71;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#D9E82C">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #D9E82C;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#736750">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #736750;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#3F4857">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #3F4857;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#B85050">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #B85050;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#CB4E8A">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #CB4E8A;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#6E50D2">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #6E50D2;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#4A72FF">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #4A72FF;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#44C7FF">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #44C7FF;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#2DFFCC">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #2DFFCC;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#9EFF71">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #9EFF71;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#B1BD24">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #B1BD24;"></span>
+																</label>
+															</li>
+															<li class="setting__customize-color">
+																<label class="setting__customize-label" data-color="#453E31">
+																	<input class="setting__customize-input" type="radio" name="color">
+																	<span style="background-color: #453E31;"></span>
+																</label>
+															</li>
+														</ul>
+													</div>
+												</div>
+
+												<div class="setting__customize">
+													<div class="customize-employee">
+														<div class="customize-employee__item">
+															<div class="customize-employee__edit">
+																<svg width="170" height="144" viewBox="0 0 170 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<rect x="48" y="43" width="76" height="83" rx="38" fill="#C0C0C0"/>
+																	<rect width="170" height="83" rx="5" fill="white"/>
+																	<path d="M67 126C81.0602 128.662 88.9395 128.629 103 126V129.125C103 129.125 99.9143 136 85 136C70.0857 136 67 129.125 67 129.125V126Z" fill="white"/>
+																	<ellipse cx="85" cy="100.5" rx="24" ry="23.5" fill="#F9F1B1"/>
+																	<path d="M81 117C81 117 68.3448 129.894 72.5 137.5C77.1809 146.068 92.7045 146.004 97.5 137.5C101.687 130.075 90 117 90 117H81Z" fill="#F9F1B1"/>
+																	<rect x="111" y="64" width="14" height="46" rx="7" fill="#FFE4CC"/>
+																	<path d="M111 92H125V103C125 106.866 121.866 110 118 110C114.134 110 111 106.866 111 103V92Z" fill="#E76FCC"/>
+																	<rect x="71" y="13" width="28" height="24" fill="#C4C4C4"/>
+																	<rect x="37" y="20" width="96" height="2" fill="#656565"/>
+																	<rect x="114.526" y="47.9082" width="9.11005" height="15.6172" rx="4.55502" transform="rotate(-15 114.526 47.9082)" fill="#656565"/>
+																	<rect x="114.526" y="47.9082" width="9.11005" height="9.11005" rx="4.55502" transform="rotate(-15 114.526 47.9082)" fill="#808080"/>
+																	<rect x="119.14" y="50.0405" width="1.30144" height="2.60287" rx="0.650718" transform="rotate(-15 119.14 50.0405)" fill="#C4C4C4"/>
+																	<path d="M78.1628 20L71 13H99L91.8372 20H78.1628Z" fill="#979797"/>
+																	<rect x="37.0908" y="47.502" width="63.7703" height="20.823" fill="#656565"/>
+																	<rect x="38.3923" y="48.8032" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="43.5979" y="48.8032" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="48.8037" y="48.8032" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="38.3923" y="52.7075" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="43.5979" y="52.7075" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="48.8037" y="52.7075" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="38.3923" y="56.6118" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="43.5979" y="56.6118" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="48.8037" y="56.6118" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="54.0095" y="48.8032" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="59.2153" y="48.8032" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="64.4209" y="48.8032" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="54.0095" y="52.7075" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="59.2153" y="52.7075" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="64.4209" y="52.7075" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="54.0095" y="56.6118" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="59.2153" y="56.6118" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="64.4209" y="56.6118" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="69.6267" y="48.8032" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="74.8325" y="48.8032" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="80.0381" y="48.8032" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="69.6267" y="52.7075" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="74.8325" y="52.7075" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="80.0381" y="52.7075" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="69.6267" y="56.6118" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="74.8325" y="56.6118" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="80.0381" y="56.6118" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="85.2439" y="48.8032" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="90.4497" y="48.8032" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="95.6555" y="48.8032" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="85.2439" y="52.7075" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="90.4497" y="52.7075" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="95.6555" y="52.7075" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="85.2439" y="56.6118" width="3.90431" height="3.90431" fill="#C4C4C4"/>
+																	<rect x="90.4497" y="56.6118" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="95.6555" y="56.6118" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="38.3923" y="60.5161" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="43.5979" y="60.5161" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="48.8037" y="60.5161" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="54.0095" y="60.5161" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="59.2153" y="60.5161" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="64.4209" y="60.5161" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="69.6267" y="60.5161" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="74.8325" y="60.5161" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="80.0381" y="60.5161" width="5.20574" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="85.2439" y="60.5161" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="90.4497" y="60.5161" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="95.6555" y="60.5161" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="38.3923" y="64.4204" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="43.5979" y="64.4204" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="48.8037" y="64.4204" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="54.0095" y="64.4204" width="19.5215" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="74.8325" y="64.4204" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="80.0381" y="64.4204" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="85.2439" y="64.4204" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="90.4497" y="64.4204" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="95.6555" y="64.4204" width="3.90431" height="3.25359" fill="#C4C4C4"/>
+																	<rect x="45" y="64" width="14" height="46" rx="7" fill="#FFE4CC"/>
+																	<path d="M45 92H59V103C59 106.866 55.866 110 52 110C48.134 110 45 106.866 45 103V92Z" fill="#E76FCC"/>
+																</svg>
+															</div>
+														</div>
+
+														<div class="customize-employee__item">
+															<div class="employee__option">
+																<span>
+																	Пол
+																</span>
+																<div class="employee__option-slider">
+																	<button class="employee__option-btn">
+																		<svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M9 14L2 7.5L9 0.999999" stroke="white" stroke-width="2"/>
+																			<path d="M9 14L2 7.5L9 0.999999" stroke="#A0A0A0" stroke-width="2"/>
+																		</svg>
+																	</button>
+																	<input class="employee__option-input" type="text" name="floor" value="Женский" readonly="">
+																	<button class="employee__option-btn">
+																		<svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M1 1L8 7.5L0.999998 14" stroke="white" stroke-width="2"/>
+																			<path d="M1 1L8 7.5L0.999998 14" stroke="#A0A0A0" stroke-width="2"/>
+																		</svg>
+																	</button>
+																</div>
+															</div>
+															<div class="employee__option">
+																<span>
+																	Цвет одежды
+																</span>
+																<div class="employee__option-slider">
+																	<button class="employee__option-btn">
+																		<svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M9 14L2 7.5L9 0.999999" stroke="white" stroke-width="2"/>
+																			<path d="M9 14L2 7.5L9 0.999999" stroke="#A0A0A0" stroke-width="2"/>
+																		</svg>
+																	</button>
+																	<input class="employee__option-input" type="text" name="colorclothing" value="Розовый" readonly="">
+																	<button class="employee__option-btn">
+																		<svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M1 1L8 7.5L0.999998 14" stroke="white" stroke-width="2"/>
+																			<path d="M1 1L8 7.5L0.999998 14" stroke="#A0A0A0" stroke-width="2"/>
+																		</svg>
+																	</button>
+																</div>
+															</div>
+															<div class="employee__option">
+																<span>
+																	Цвет волос
+																</span>
+																<div class="employee__option-slider">
+																	<button class="employee__option-btn">
+																		<svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M9 14L2 7.5L9 0.999999" stroke="white" stroke-width="2"/>
+																			<path d="M9 14L2 7.5L9 0.999999" stroke="#A0A0A0" stroke-width="2"/>
+																		</svg>
+																	</button>
+																	<input class="employee__option-input" type="text" name="colorhair" value="Светлый" readonly="">
+																	<button class="employee__option-btn">
+																		<svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M1 1L8 7.5L0.999998 14" stroke="white" stroke-width="2"/>
+																			<path d="M1 1L8 7.5L0.999998 14" stroke="#A0A0A0" stroke-width="2"/>
+																		</svg>
+																	</button>
+																</div>
+															</div>
+															<div class="employee__option">
+																<span>
+																	Цвет Оборудования
+																</span>
+																<div class="employee__option-slider">
+																	<button class="employee__option-btn">
+																		<svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M9 14L2 7.5L9 0.999999" stroke="white" stroke-width="2"/>
+																			<path d="M9 14L2 7.5L9 0.999999" stroke="#A0A0A0" stroke-width="2"/>
+																		</svg>
+																	</button>
+																	<input class="employee__option-input" type="text" name="colorequipment" value="Светлый" readonly="">
+																	<button class="employee__option-btn">
+																		<svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M1 1L8 7.5L0.999998 14" stroke="white" stroke-width="2"/>
+																			<path d="M1 1L8 7.5L0.999998 14" stroke="#A0A0A0" stroke-width="2"/>
+																		</svg>
+																	</button>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tabs__content-box" id="five">
+									<div class="setting__wrapper">
+										<div class="setting__head">
+											<h3 class="setting__head-title">
+												Уведомления
+											</h3>
+										</div>
+										<div class="setting scroll__custom">
+											<div class="setting__content">
+												<div class="setting__content-item">
+													<h4 class="setting__content-title">
+														Уведомления сервиса
+													</h4>
+
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Уведомления сообщений
+														</div>
+														<div class="settings__option-button">
+															<input class="settings__option-checkbox" type="checkbox">
+															<div class="settings__option-knobs">
+																<span>Включить</span>
+															</div>
+															<div class="settings__option-layer"></div>
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Уведомления сообщений
+														</div>
+														<div class="settings__option-button">
+															<input class="settings__option-checkbox" type="checkbox">
+															<div class="settings__option-knobs">
+																<span>Включить</span>
+															</div>
+															<div class="settings__option-layer"></div>
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Уведомления сообщений
+														</div>
+														<div class="settings__option-button">
+															<input class="settings__option-checkbox" type="checkbox">
+															<div class="settings__option-knobs">
+																<span>Включить</span>
+															</div>
+															<div class="settings__option-layer"></div>
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Уведомления сообщений
+														</div>
+														<div class="settings__option-button">
+															<input class="settings__option-checkbox" type="checkbox">
+															<div class="settings__option-knobs">
+																<span>Включить</span>
+															</div>
+															<div class="settings__option-layer"></div>
+														</div>
+													</div>
+												</div>
+												<div class="setting__content-item">
+													<h4 class="setting__content-title">
+														Уведомления инструментов
+													</h4>
+
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Уведомления сообщений
+														</div>
+														<div class="settings__option-button">
+															<input class="settings__option-checkbox" type="checkbox">
+															<div class="settings__option-knobs">
+																<span>Включить</span>
+															</div>
+															<div class="settings__option-layer"></div>
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Уведомления сообщений
+														</div>
+														<div class="settings__option-button">
+															<input class="settings__option-checkbox" type="checkbox">
+															<div class="settings__option-knobs">
+																<span>Включить</span>
+															</div>
+															<div class="settings__option-layer"></div>
+														</div>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Уведомления сообщений
+														</div>
+														<div class="settings__option-button">
+															<input class="settings__option-checkbox" type="checkbox">
+															<div class="settings__option-knobs">
+																<span>Включить</span>
+															</div>
+															<div class="settings__option-layer"></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tabs__content-box" id="six">
+									<div class="setting__wrapper">
+										<div class="setting__head">
+											<h3 class="setting__head-title">
+												Безопастность
+											</h3>
+										</div>
+										<div class="setting scroll__custom">
+											<div class="setting__content">
+												<div class="setting__content-item">
+													<h4 class="setting__content-title setting__content-title--m0">
+														Смена пароля
+													</h4>
+													<div class="setting__change">
+														<div class="setting__change-item">
+															<label class="registration__label">
+																<span>
+																	Старый пароль
+																</span>
+																<input class="registration__input" name="oldpass" type="password" placeholder="">
+															</label>
+															<a class="setting__change-help" href="">
+																Не помню пароль
+															</a>
+														</div>
+														<div class="setting__change-item">
+															<label class="registration__label">
+																<span>
+																	Новый пароль
+																</span>
+																<input class="registration__input" name="newpass" type="password" placeholder="">
+															</label>
+															<label class="registration__label">
+																<span>
+																	Повторите пароль
+																</span>
+																<input class="registration__input" name="repeatpass" type="password" placeholder="">
+															</label>
+														</div>
+													</div>
+													<div class="setting__footer-btn">
+														<a class="registration__next-btn open-modal" data-modal="#modal13">
+															Сменить пароль
+														</a>
+													</div>
+												</div>
+												<div class="setting__content-item">
+													<h4 class="setting__content-title">
+														Аутентификация
+													</h4>
+
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Email подтвержение
+														</div>
+
+														<label class="settings__option-label">
+															<input class="settings__option-input input-edit" name="email" type="text" value="dkvfbl@mail.ru" autocomplete="off" readonly="readonly">
+															<button class="settings__option-save button-edit">
+															</button>
+														</label>
+
+														<button class="settings__option-confirm open-modal" data-modal="#modal11">
+															Подтвердить
+														</button>
+													</div>
+													<div class="settings__option">
+														<div class="settings__option-name">
+															Подтвержение телефона
+														</div>
+
+														<label class="settings__option-label">
+															<input class="settings__option-input input-edit" name="tel" type="tel" value="+7 (900) 900-99-99" autocomplete="off" readonly="readonly">
+															<button class="settings__option-save button-edit">
+															</button>
+														</label>
+
+														<button class="settings__option-confirm open-modal" data-modal="#modal12">
+															Подтвердить
+														</button>
+													</div>
+												</div>
+												<div class="setting__content-item">
+													<h4 class="setting__content-title setting__content-title--m0">
+														Смена пин-код
+													</h4>
+													<div class="setting__change">
+														<div class="setting__change-item">
+															<div class="setting__option-group">
+																<span class="dropdown__resume-info">
+																	Старый пин-код
+																</span>
+																<div class="setting__option-code">
+																	<input class="number__input" type="text" tabindex="1" maxlength="1">
+																	<input class="number__input" type="text" tabindex="2" maxlength="1">
+																	<input class="number__input" type="text" tabindex="3" maxlength="1">
+																	<input class="number__input" type="text" tabindex="4" maxlength="1">
+																</div>
+															</div>
+														</div>
+														<div class="setting__change-item">
+															<div class="setting__option-group">
+																<span class="dropdown__resume-info">
+																	Новый пин-код
+																</span>
+																<div class="setting__option-code">
+																	<input class="number__input" type="text" tabindex="5" maxlength="1">
+																	<input class="number__input" type="text" tabindex="6" maxlength="1">
+																	<input class="number__input" type="text" tabindex="7" maxlength="1">
+																	<input class="number__input" type="text" tabindex="8" maxlength="1">
+																</div>
+															</div>
+															<div class="setting__option-group">
+																<span class="dropdown__resume-info">
+																	Повторите пин-код
+																</span>
+																<div class="setting__option-code">
+																	<input class="number__input" type="text" tabindex="9" maxlength="1">
+																	<input class="number__input" type="text" tabindex="10" maxlength="1">
+																	<input class="number__input" type="text" tabindex="11" maxlength="1">
+																	<input class="number__input" type="text" tabindex="12" maxlength="1">
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="setting__footer-btn">
+														<a class="registration__next-btn open-modal" data-modal="#modal13">
+															Сменить пин-код
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="tabs__toggle-wrapper tabs__toggle-wrapper--setting scroll__custom">
+								<div class="tabs__buttons-setting profile__tabs-buttons--hidden">
+									<a href="#one" class="tabs__btn tabs__btn-setting active">Настройки отдела</a>
+									<a href="#two" class="tabs__btn tabs__btn-setting">Настройки компании</a>
+									<a href="#three" class="tabs__btn tabs__btn-setting">Настройки офиса</a>
+									<a href="#four" class="tabs__btn tabs__btn-setting">Персонализация</a>
+									<a href="#five" class="tabs__btn tabs__btn-setting">Уведомления</a>
+									<a href="#six" class="tabs__btn tabs__btn-setting">Безопастность</a>
+								</div>
+								<div class="dropdown__tabs">
+									<div class="dropdown dropdown__resume setting__option-dropdown">
+										<button class="dropdown__button dropdown__button-setting">
+											<span>
+												Настройки отдела
+											</span>
+											<svg width="18" height="11" viewBox="0 0 18 11" stroke="#8F6DFF" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M1 10L9 2L17 10" stroke-width="2"></path>
+											</svg>
+										</button>
+										<ul class="dropdown__list dropdown__list-setting">
+											<li class="dropdown__list-item profile__drop-option" data-value="Настройки отдела">
+												<a href="#one" class="tabs__btn active">Настройки отдела</a>
+											</li>
+											<li class="dropdown__list-item profile__drop-option" data-value="Настройки компании">
+												<a href="#two" class="tabs__btn">Настройки компании</a>
+											</li>
+											<li class="dropdown__list-item profile__drop-option" data-value="Настройки офиса">
+												<a href="#three" class="tabs__btn">Настройки офиса</a>
+											</li>
+											<li class="dropdown__list-item profile__drop-option" data-value="Персонализация">
+												<a href="#four" class="tabs__btn">Персонализация</a>
+											</li>
+											<li class="dropdown__list-item profile__drop-option" data-value="Уведомления">
+												<a href="#five" class="tabs__btn">Уведомления</a>
+											</li>
+											<li class="dropdown__list-item profile__drop-option" data-value="Безопастность">
+												<a href="#six" class="tabs__btn">Безопастность</a>
+											</li>
+										</ul>
+										<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal modal-margin__mobile modal__md" id="modal11">
+			<div class="madal__content">
+				<div class="modal__head">
+					<h3 class="modal__head-title">
+						Вам необходимо подтвердить Ваш e-mail
+					</h3>
+				</div>
+				<div class="modal__body">
+					<div class="modal__body-content">
+						<div class="registration__confirmation">
+							<span>
+								На Ваш Email выслано сообщение<br> с подтверждением e-mail 
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="modal__footer">
+					<button class="setting-btn modal__close" data-modal="#modal11">
+						Подтвердить
+					</button>
+				</div>
+			</div>	
+		</div>
+
+		<div class="modal modal-margin__mobile modal__md" id="modal12">
+			<div class="madal__content">
+				<div class="modal__head">
+					<h3 class="modal__head-title">
+						Вам необходимо подтвердить Ваш номер телефона
+					</h3>
+				</div>
+				<div class="modal__body">
+					<div class="modal__body-content">
+						<div class="registration__code">
+							<div class="registration__code-info">
+								<span>
+									Код будет отправлен на номер
+								</span>
+								<span class="registration__phone">
+									* (***) *** 23 - 23
+								</span>
+							</div>
+							<div class="registration__sms">
+								<input class="number__input" type="text" tabindex="13" maxlength="1">
+								<input class="number__input" type="text" tabindex="14" maxlength="1">
+								<input class="number__input" type="text" tabindex="15" maxlength="1">
+								<input class="number__input" type="text" tabindex="16" maxlength="1">
+							</div>
+							<div class="registration__bottom">
+								<span class="registration__sms-info">
+									Введите код из SMS
+								</span>
+								<a class="registration__again">
+									Выслать код повторно
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal__footer">
+					<button class="setting-btn open-modal" data-modal="#modal14">
+						Подтвердить
+					</button>
+				</div>
+			</div>	
+		</div>
+
+		<div class="modal modal-margin__mobile modal__md" id="modal13">
+			<div class="madal__content">
+				<div class="modal__head">
+					<h3 class="modal__head-title">
+						Вам необходимо подтвердить смену пин кода
+					</h3>
+				</div>
+				<div class="modal__body">
+					<div class="modal__body-content">
+						<div class="modal__body-option">
+							<label class="option__label">
+								<input class="option__input" type="radio" name="item1">
+								<span>
+									Подтвердить с помощью e-mail
+								</span>
+							</label>
+							<label class="option__label">
+								<input class="option__input" type="radio" name="item1">
+								<span>
+									Подтвердить с помощью SMS
+								</span>
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="modal__footer">
+					<button class="setting-btn modal__close" data-modal="#modal13">
+						Подтвердить
+					</button>
+				</div>
+			</div>	
+		</div>
+
+		<div class="modal modal-margin__mobile modal__md" id="modal14">
+			<div class="madal__content">
+				<div class="modal__head">
+					<h3 class="modal__head-title">
+						Введите пин-код  чтобы получить доступ к настройкам
+					</h3>
+				</div>
+				<div class="modal__body">
+					<div class="modal__body-content">
+						<div class="registration__code registration__code--setting">
+							<span class="setting-code__info">
+								Введите пин-код
+							</span>
+							<div class="registration__sms">
+								<input class="number__input" type="text" tabindex="17" maxlength="1">
+								<input class="number__input" type="text" tabindex="18" maxlength="1">
+								<input class="number__input" type="text" tabindex="19" maxlength="1">
+								<input class="number__input" type="text" tabindex="20" maxlength="1">
+							</div>
+							<span class="setting-code__info">
+								Данный пин-код не верен
+							</span>
+							<a class="setting-code__info" href="">
+								Восстановить
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</main>
+
+	<script src="assets/js/plugins/jquery/libs.min.js"></script>
+	<script src="assets/js/plugins/dragscroll/dragscroll.js"></script>
+	<script src="assets/js/plugins/maskedinput/jquery.maskedinput.min.js"></script>
+	<script src="assets/js/plugins/swiper/swiper.js"></script>
+	<script src="assets/js/app.js"></script>
+
+</body>
+</html>

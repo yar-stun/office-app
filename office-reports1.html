@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Sttox</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0, user-scalable=no, user-scalable=0"/>
+	<link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+
+	<header class="headeracc">
+		<div class="headeracc__wrapper">	
+			<div class="headeracc__item">
+				<div class="headeracc__menu">
+					<button class="header__toggle header__toggle-account" type="button">
+						<span class="header__toggle-item">Menu</span>
+					</button>
+				</div>
+				<div class="header__logo">
+					<a href="index.html">
+						<img src="assets/images/section-1/title.png" alt="Логотип">
+						<span>/ Удалённый офис</span>
+					</a>
+				</div>
+			</div>
+			<div class="headeracc__item">
+				<div class="header__translate-box">
+					<ul class="header__translate" data-location="ru">
+						<li class="header__translate-button active" data-lang="ru">
+							<span>
+								Rus
+							</span>
+						</li>
+						<li class="header__translate-button" data-lang="en">
+							<span>
+								Eng
+							</span>
+						</li>
+					</ul>
+				</div>
+				<a class="headeracc__massage headeracc__count notification-open" data-count="5">
+					<svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M10.9001 11.3372H2.15641H0.822631C-0.362893 11.3372 0.0816416 10.5814 0.0816416 10.5814C0.0816416 10.5814 0.378093 9.82558 1.26725 9.67442C2.15641 9.52326 2.15644 8.76744 2.15644 8.76744C2.15644 8.76744 1.93009 4.04159 2.15644 3.62791C2.38279 3.21422 2.74923 1.51163 6.00959 1.51163C9.26994 1.51163 9.72547 3.25581 9.86274 3.62791C10 4 9.86274 8.76744 9.86274 8.76744C9.86274 8.76744 9.86274 9.52326 10.7519 9.67442C11.6411 9.82558 11.9375 10.5814 11.9375 10.5814C11.9375 10.5814 12.3821 11.3372 10.9001 11.3372Z" fill="#8F6DFF"/>
+						<path d="M7.93612 11.7907H4.08297C4.08297 11.7907 4.67574 13 6.00953 13C7.34331 13 7.93612 11.7907 7.93612 11.7907Z" fill="#8F6DFF"/>
+						<path d="M7.49152 1.2093C6.3096 0.980857 5.68615 0.999738 4.52756 1.2093C4.52756 1.2093 4.67576 0 6.00954 0C7.34332 0 7.49152 1.2093 7.49152 1.2093Z" fill="#8F6DFF"/>
+					</svg>
+				</a>
+				<div class="headeracc__avatar">
+					<a href="account-profile-new.html">
+						<div class="headeracc__count" data-count="3">
+							<span class="headeracc__active"></span>
+							<img src="assets/images/account/user/avatar.png" alt="avatar">
+						</div>
+						<p>
+							Иван <span>Иванов</span>
+						</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	
+		<div class="notification">
+			<ul class="notification__list scroll__custom">
+				<li class="notification__list-item">
+					<div class="headeracc__avatar notification__icon">
+						<span class="headeracc__active"></span>
+						<img src="assets/images/account/user/avatar.png" alt="avatar">
+					</div>
+					<p class="notification__text">
+						Сотрудник <span>Иван Иванов</span> прислал Вам отчёт
+					</p>
+					<span class="notification__time">Сегодня в 13:33</span>
+				</li>
+				<li class="notification__list-item">
+					<div class="notification__icon">
+						<img src="assets/images/account/notification/notification.svg" alt="icon">
+					</div>
+					<p class="notification__text">
+						Намоминание о задаче “Разработать дизайн-макет интернет магазина”
+					</p>
+					<span class="notification__time">Сегодня в 13:33</span>
+				</li>
+				<li class="notification__list-item">
+					<div class="notification__icon">
+						<img src="assets/images/account/notification/message.svg" alt="icon">
+					</div>
+					<p class="notification__text">
+						<span>Иван Иванов</span> прислал личное сообщение
+					</p>
+					<span class="notification__time">Вчера в 13:33</span>
+				</li>
+			</ul>
+			<div class="notification__buttons">
+				<button class="notification__btn">
+					Очистить
+				</button>
+				<a href="" class="notification__btn notification__btn--full">
+					<span>
+						Все уведомления
+					</span>
+					<svg width="10" height="15" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M2 2L9 8.5L2 15" stroke="white" stroke-width="3"/>
+						<path d="M2 2L9 8.5L2 15" stroke="#8F6DFF" stroke-width="3"/>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</header>
+	<main class="page page--account">
+
+		<div class="account__panel-mobile">
+			<ul class="account__panel-list">
+				<li>
+					<a href="">
+						<span class="account__panel-count" data-count="5">
+							<img src="assets/images/account/icons/panelmenu-1.svg" alt="Icons">
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span>
+							<img src="assets/images/account/icons/panelmenu-2.svg" alt="Icons">
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span>
+							<img src="assets/images/account/icons/panelmenu-3.svg" alt="Icons">
+						</span>
+					</a>
+				</li>
+				<li>
+					<a class="active" href="">
+						<span>
+							<img src="assets/images/account/icons/panelmenu-4.svg" alt="Icons">
+						</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="account__page">
+			<aside class="account__sidebar">
+				<ul class="account__menu">
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="office-statistics-1.1.html">
+							<img src="assets/images/account/icons/menu-1.svg" alt="Icons">
+							<span>
+								Компания
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="account-profile-new.html">
+							<img src="assets/images/account/icons/menu-2.svg" alt="Icons">
+							<span>
+								Профиль
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link account__menu-count" data-count="5" href="messenger.html">
+							<img src="assets/images/account/icons/menu-3.svg" alt="Icons">
+							<span>
+								Сообщения
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link account__menu-link--drop" href="office-department-notes.html">
+							<img src="assets/images/account/icons/menu-4.svg" alt="Icons">
+							<span>
+								Инструменты
+							</span>
+							<span class="account__menu-link--arrow">
+								<svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1 1L6 6.5L0.999998 12" stroke="white" stroke-width="2"></path>
+									<path d="M1 1L6 6.5L0.999998 12" stroke="#1F2D44" stroke-width="2"></path>
+								</svg>
+							</span>
+						</a>
+						<ul class="account__menu account__menu--dropdown dropdown-list">
+							<li class="dropdown-list__item mobile-content">
+								<a href="" class="mobile-content__back">
+									<span class="mobile-content__arrow">
+										<svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M7 12L2 6.5L7 1" stroke="white" stroke-width="2"></path>
+											<path d="M7 12L2 6.5L7 1" stroke="#8F6DFF" stroke-width="2"></path>
+										</svg>
+									</span>
+									Меню
+								</a>
+								<h3 class="mobile-content__title">
+									Инструменты
+								</h3>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-department-notes.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-1.svg" alt="Icons">
+									<span>
+										Заметки
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-department-task-chain1.2.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-2.svg" alt="Icons">
+									<span>
+										Задачи
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-projects.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-3.svg" alt="Icons">
+									<span>
+										Проекты
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-add-links1.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-4.svg" alt="Icons">
+									<span>
+										Ссылки
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-meetings-list.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-5.svg" alt="Icons">
+									<span>
+										Совещания
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-department-control.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-6.svg" alt="Icons">
+									<span>
+										Контроль
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-checklist.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-13.svg" alt="Icons">
+									<span>
+										Чек-листы
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-reports.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-14.svg" alt="Icons">
+									<span>
+										Отчёты
+									</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link account__menu-link--drop" href="">
+							<img src="assets/images/account/icons/menu-5.svg" alt="Icons">
+							<span>
+								Сотрудники
+							</span>
+							<span class="account__menu-link--arrow">
+								<svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1 1L6 6.5L0.999998 12" stroke="white" stroke-width="2"></path>
+									<path d="M1 1L6 6.5L0.999998 12" stroke="#1F2D44" stroke-width="2"></path>
+								</svg>
+							</span>
+						</a>
+						<ul class="account__menu account__menu--dropdown dropdown-list">
+							<li class="dropdown-list__item mobile-content">
+								<a href="" class="mobile-content__back">
+									<span class="mobile-content__arrow">
+										<svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M7 12L2 6.5L7 1" stroke="white" stroke-width="2"></path>
+											<path d="M7 12L2 6.5L7 1" stroke="#8F6DFF" stroke-width="2"></path>
+										</svg>
+									</span>
+									Меню
+								</a>
+								<h3 class="mobile-content__title">
+									Сотрудники
+								</h3>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-vacancy-creature-list.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-7.svg" alt="Icons">
+									<span>
+										Вакансии
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-department-schedule-list.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-8.svg" alt="Icons">
+									<span>
+										Графики
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-department-colleagues.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-9.svg" alt="Icons">
+									<span>
+										Коллеги
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-staff.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-10.svg" alt="Icons">
+									<span>
+										Все сотрудники
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="office-training.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-11.svg" alt="Icons">
+									<span>
+										Обучения
+									</span>
+								</a>
+							</li>
+							<li class="dropdown-list__item">
+								<a href="achieve.html" class="account__menu-link dropdown-list__link">
+									<img src="assets/images/account/icons/submenu-12.svg" alt="Icons">
+									<span>
+										Достижения
+									</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="office-workplace.html">
+							<img src="assets/images/account/icons/menu-6.svg" alt="Icons">
+							<span>
+								Рабочее место
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="">
+							<img src="assets/images/account/icons/menu-7.svg" alt="Icons">
+							<span>
+								Найти работника
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="storage.html">
+							<img src="assets/images/account/icons/menu-8.svg" alt="Icons">
+							<span>
+								Sttox диск
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="">
+							<img src="assets/images/account/icons/menu-9.svg" alt="Icons">
+							<span>
+								Статистика
+							</span>
+						</a>
+					</li>
+					<li class="account__menu-item">
+						<a class="account__menu-link" href="office-settings.html">
+							<img src="assets/images/account/icons/menu-10.svg" alt="Icons">
+							<span>
+								Настройки
+							</span>
+						</a>
+					</li>
+				</ul>
+			
+				<div class="account__sidebar-logout">
+					<a href="index.html" class="logout__btn">
+						<img src="assets/images/account/icons/5.png" alt="logout">
+						<span>
+							Выйти
+						</span>
+					</a>
+				</div>
+			</aside>
+			
+			<div class="account__content">
+				<div class="account__head">
+					<div class="account__crumbs">
+						<a href="">
+							Отчёты
+						</a>
+					</div>
+					<div class="account__buttons">
+						<button class="chain-add training-add chain-add-white chain-add--default">
+							<span>
+								Сохранить в черновик
+							</span>
+						</button>
+						<button class="chain-add training-add chain-add-white chain-add--default">
+							<span>
+								Отправить отчёт
+							</span>
+						</button>
+					</div>
+				</div>
+			
+				<div class="account__head-mobile head-mobile">
+					<div class="head-mobile__item">
+						<div class="head-mobile__link">
+							<a class="head-mobile__prev" href="">
+								<img src="assets/images/account/icons/arrow.svg" alt="prev">
+							</a>
+							<button class="header__toggle header__toggle-account" type="button">
+								<span class="header__toggle-item">Menu</span>
+							</button>
+							<h3 class="head-mobile__title">
+								Написать отчёт
+							</h3>
+						</div>
+					</div>
+					<div class="head-mobile__item">
+						<button class="head-mobile__btn">
+							Сохранить
+						</button>
+					</div>
+				</div>
+			
+				<div class="reports scroll__custom">
+					<div class="reports__content">
+						<div class="reports__head">
+							<div class="reports__item reports__item--from">
+								<span class="reports__item-text">
+									от
+								</span>
+								<div class="reports__info-box">
+									<div class="reports__avatar">
+										<img src="assets/images/account/user/avatar.png" alt="avatar">
+									</div>
+									<div class="reports__info">
+										<span class="reports__info-name">
+											Георгий Васильев
+										</span>
+										<span class="reports__info-position">
+											Менеджер по продажами
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="reports__item reports__item--to">
+								<span class="reports__item-text">
+									кому
+								</span>
+								<div class="reports__info-box">
+									<div class="reports__avatar">
+										<img src="assets/images/account/user/avatar.png" alt="avatar">
+									</div>
+									<div class="reports__info">
+										<span class="reports__info-name">
+											Александр Петрович
+										</span>
+										<span class="reports__info-position">
+											Руководитель отдела
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="reports__add-mobile">
+							<button class="reports__add-btn">
+								<span>
+									Выбрать задачу
+								</span>
+								<span class="reports__add-option">
+									<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.5 0.5C4.5 0.223858 4.72386 0 5 0C5.27614 0 5.5 0.223858 5.5 0.5V9.5C5.5 9.77614 5.27614 10 5 10C4.72386 10 4.5 9.77614 4.5 9.5V0.5Z" fill="#8F6DFF"/>
+										<path d="M9.5 4.5C9.77614 4.5 10 4.72386 10 5C10 5.27614 9.77614 5.5 9.5 5.5L0.5 5.5C0.223858 5.5 -3.39263e-08 5.27614 -2.18557e-08 5C-9.78515e-09 4.72386 0.223858 4.5 0.5 4.5L9.5 4.5Z" fill="#8F6DFF"/>
+									</svg>
+								</span>
+							</button>
+							<button class="reports__add-btn">
+								<span>
+									Выбрать проект
+								</span>
+								<span class="reports__add-option">
+									<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.5 0.5C4.5 0.223858 4.72386 0 5 0C5.27614 0 5.5 0.223858 5.5 0.5V9.5C5.5 9.77614 5.27614 10 5 10C4.72386 10 4.5 9.77614 4.5 9.5V0.5Z" fill="#8F6DFF"/>
+										<path d="M9.5 4.5C9.77614 4.5 10 4.72386 10 5C10 5.27614 9.77614 5.5 9.5 5.5L0.5 5.5C0.223858 5.5 -3.39263e-08 5.27614 -2.18557e-08 5C-9.78515e-09 4.72386 0.223858 4.5 0.5 4.5L9.5 4.5Z" fill="#8F6DFF"/>
+									</svg>
+								</span>
+							</button>
+						</div>
+						<div class="reports__head-body">
+							<div class="reports__topic">
+								<input class="reports__topic-input" name="name" type="text" placeholder="Тема отчёта">
+								<div class="reports__topic-buttons">
+									<button class="chain-add training-add chain-add--default">
+										<span>
+											Выбрать задачу
+										</span>
+									</button>
+									<button class="chain-add training-add chain-add--default">
+										<span>
+											Выбрать проект
+										</span>
+									</button>
+								</div>
+							</div>
+							<div class="reports__text">
+								<textarea class="reports__topic-input scroll__custom resize__input" placeholder="Текст отчёта" name="text"></textarea>
+							</div>
+							<div class="reports__body-buttons">
+								<button class="dialog__submit reports__submit">
+									<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="white">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M9.56715 15.4003C9.55245 15.4003 9.53845 15.3996 9.52445 15.3989C9.20805 15.38 8.94415 15.1504 8.88115 14.8396L7.80455 9.54265C7.74855 9.26686 7.53365 9.05196 7.25785 8.99595L1.96095 7.91865C1.65015 7.85635 1.42055 7.59245 1.40165 7.27605C1.38275 6.95895 1.57805 6.66916 1.87905 6.56976L13.0791 2.83665C13.3303 2.75125 13.6076 2.81705 13.7952 3.00535C13.9828 3.19295 14.0479 3.47015 13.9646 3.72145L10.2308 14.9215C10.1356 15.2092 9.86675 15.4003 9.56715 15.4003Z" fill="#231F20"></path>
+										<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="1" y="2" width="14" height="14">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M9.56715 15.4003C9.55245 15.4003 9.53845 15.3996 9.52445 15.3989C9.20805 15.38 8.94415 15.1504 8.88115 14.8396L7.80455 9.54265C7.74855 9.26686 7.53365 9.05196 7.25785 8.99595L1.96095 7.91865C1.65015 7.85635 1.42055 7.59245 1.40165 7.27605C1.38275 6.95895 1.57805 6.66916 1.87905 6.56976L13.0791 2.83665C13.3303 2.75125 13.6076 2.81705 13.7952 3.00535C13.9828 3.19295 14.0479 3.47015 13.9646 3.72145L10.2308 14.9215C10.1356 15.2092 9.86675 15.4003 9.56715 15.4003Z"></path>
+										</mask>
+										<g mask="url(#mask1)">
+											<rect width="16.8" height="16.8"></rect>
+										</g>
+									</svg>
+								</button>
+			
+								<div class="reports__upload">
+									<input class="reports__upload-input" id="reports__upload" type="file" name="attach">
+									<label for="reports__upload" class="reports__upload-label">
+										<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M6.50543 14.7004C5.34623 14.7004 4.24443 14.2342 3.40303 13.3879C1.73143 11.7058 1.66283 9.03879 3.24973 7.44209L8.41993 2.24109C8.95823 1.69929 9.68483 1.40039 10.4653 1.40039C11.3004 1.40039 12.0942 1.73569 12.6997 2.34469C13.9044 3.55639 13.9506 5.48209 12.8019 6.63709L7.62543 11.8374C7.29013 12.1755 6.83863 12.361 6.35423 12.361C5.84253 12.361 5.35743 12.1566 4.98923 11.7863C4.25213 11.0436 4.22903 9.85989 4.93813 9.14589L9.71563 4.34739C9.98863 4.07299 10.431 4.07159 10.7054 4.34459C10.9791 4.61759 10.9805 5.06069 10.7075 5.33439L5.93073 10.1336C5.76273 10.303 5.78583 10.6019 5.98253 10.7993C6.08473 10.9022 6.22053 10.961 6.35423 10.961C6.43123 10.961 6.54183 10.9421 6.63283 10.8504L11.8093 5.65009C12.4162 5.03899 12.3707 3.99949 11.7071 3.33169C11.0722 2.69329 9.99493 2.64289 9.41253 3.22809L4.24233 8.42909C3.19653 9.48119 3.26513 11.2634 4.39633 12.4009C4.97243 12.9812 5.72143 13.3004 6.50543 13.3004C7.20613 13.3004 7.85573 13.0358 8.33313 12.5556L13.504 7.35459C13.7763 7.08089 14.2194 7.07879 14.4938 7.35179C14.7675 7.62479 14.7689 8.06719 14.4966 8.34159L9.32573 13.5426C8.58373 14.2888 7.58203 14.7004 6.50543 14.7004Z" fill="white"/>
+											<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="1" width="13" height="14">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M6.50543 14.7004C5.34623 14.7004 4.24443 14.2342 3.40303 13.3879C1.73143 11.7058 1.66283 9.03879 3.24973 7.44209L8.41993 2.24109C8.95823 1.69929 9.68483 1.40039 10.4653 1.40039C11.3004 1.40039 12.0942 1.73569 12.6997 2.34469C13.9044 3.55639 13.9506 5.48209 12.8019 6.63709L7.62543 11.8374C7.29013 12.1755 6.83863 12.361 6.35423 12.361C5.84253 12.361 5.35743 12.1566 4.98923 11.7863C4.25213 11.0436 4.22903 9.85989 4.93813 9.14589L9.71563 4.34739C9.98863 4.07299 10.431 4.07159 10.7054 4.34459C10.9791 4.61759 10.9805 5.06069 10.7075 5.33439L5.93073 10.1336C5.76273 10.303 5.78583 10.6019 5.98253 10.7993C6.08473 10.9022 6.22053 10.961 6.35423 10.961C6.43123 10.961 6.54183 10.9421 6.63283 10.8504L11.8093 5.65009C12.4162 5.03899 12.3707 3.99949 11.7071 3.33169C11.0722 2.69329 9.99493 2.64289 9.41253 3.22809L4.24233 8.42909C3.19653 9.48119 3.26513 11.2634 4.39633 12.4009C4.97243 12.9812 5.72143 13.3004 6.50543 13.3004C7.20613 13.3004 7.85573 13.0358 8.33313 12.5556L13.504 7.35459C13.7763 7.08089 14.2194 7.07879 14.4938 7.35179C14.7675 7.62479 14.7689 8.06719 14.4966 8.34159L9.32573 13.5426C8.58373 14.2888 7.58203 14.7004 6.50543 14.7004Z" fill="white"/>
+											</mask>
+											<g mask="url(#mask0)">
+												<rect width="16.8" height="16.8" fill="white"/>
+											</g>
+										</svg>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<script src="assets/js/plugins/jquery/libs.min.js"></script>
+	<script src="assets/js/plugins/dragscroll/dragscroll.js"></script>
+	<script src="assets/js/plugins/maskedinput/jquery.maskedinput.min.js"></script>
+	<script src="assets/js/plugins/swiper/swiper.js"></script>
+	<script src="assets/js/app.js"></script>
+
+</body>
+</html>
